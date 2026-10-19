@@ -1,12 +1,12 @@
 /*
 Theme Name: Nukto Point
 Theme URI: https://nuktopoint.com
-Author: Nukto Creative Studio
-Author URI: https://www.behance.net/nukto-poin
+Author: Mohammad Farooque
+Author URI: https://www.linkedin.com/in/mohammadfarooque/
 Description: Bespoke high-performance creative agency WordPress theme designed with high-contrast typography, interactive GSAP motion, and fluid responsive architecture. Built from scratch without page builders.
-Version: 1.0.0
+Version: 1.1.0
 Requires at least: 6.0
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 7.4
 Text Domain: nukto
 */
@@ -819,7 +819,7 @@ body.admin-bar .nk-hero {
 }
 
 /* ==========================================================================
-   9. Selected Work (Asymmetrical Grid matching Buzz Interactive)
+   9. Selected Work (Asymmetrical Editorial Grid)
    ========================================================================== */
 .nk-work-section {
   padding-top: var(--nk-space-2xl);
@@ -977,7 +977,7 @@ body.admin-bar .nk-hero {
 }
 
 /* ==========================================================================
-   10. Services Section (Sticky Split Layout matching Buzz Interactive)
+   10. Services Section (Sticky Split Layout)
    ========================================================================== */
 .nk-services-section {
   position: relative;
@@ -1661,10 +1661,41 @@ body.admin-bar .nk-hero {
   color: var(--nk-text-dim);
 }
 
+.nk-footer-bottom-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+/* Subtle Developer Attribution Link */
+.nk-dev-credit {
+  display: inline-block;
+  color: #ffffff;
+  opacity: 0.05;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  transition: opacity 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.nk-dev-credit:hover,
+.nk-dev-credit:focus {
+  opacity: 0.10;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 @media (max-width: 768px) {
   .nk-footer-bottom {
     flex-direction: column;
     gap: 1rem;
+    text-align: center;
+  }
+
+  .nk-footer-bottom-left {
+    align-items: center;
     text-align: center;
   }
 }

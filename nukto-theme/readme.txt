@@ -7,7 +7,7 @@ Requires PHP: 7.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Nukto Point is an avant-garde, ultra-dark WordPress theme built from scratch for elite creative studios, art directors, and communication designers. Inspired by cutting-edge agency experiences like Buzz Interactive.
+Nukto Point is an avant-garde, ultra-dark WordPress theme built from scratch for elite creative studios, art directors, and communication designers, developed by Mohammad Farooque.
 
 == Description ==
 

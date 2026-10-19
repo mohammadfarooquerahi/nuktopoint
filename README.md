@@ -1,7 +1,7 @@
 # 🎯 NUKTO POINT — Custom WordPress Theme
 
 > **"Think Big. Create Bold. Make Something Matter."**  
-> An avant-garde, ultra-dark WordPress theme built from scratch for elite creative studios, art directors, and communication designers. Visually and interactively inspired by **Buzz Interactive** (`buzzinteractive.co`) and populated with real portfolio work and credentials from **Nukto Point** (`behance.net/nukto-poin`).
+> An avant-garde, ultra-dark WordPress theme built from scratch for elite creative studios, art directors, and communication designers, developed by **Mohammad Farooque** and populated with real portfolio work and credentials from **Nukto Point** (`behance.net/nukto-poin`).
 
 ---
 

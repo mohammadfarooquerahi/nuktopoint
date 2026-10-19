@@ -1,6 +1,6 @@
 # 📖 NUKTO POINT &mdash; Complete Website Operations & Client Handover Manual
 
-Welcome to your official **Nukto Point** (`nuktopoint.com`) operations and management guide. This custom WordPress theme has been crafted from scratch to mirror the award-winning interactive aesthetics of **Buzz Interactive** while showcasing the authentic creative portfolio, academic credentials, and communication design work of **Nukto Point**.
+Welcome to your official **Nukto Point** (`nuktopoint.com`) operations and management guide. This custom WordPress theme has been crafted from scratch by **Mohammad Farooque** as an avant-garde digital presence showcasing the authentic creative portfolio, academic credentials, and communication design work of **Nukto Point**.
 
 This guide provides step-by-step instructions for editing website content, managing portfolio projects, monitoring contact inquiries, and customizing visual styles &mdash; **all without touching any code**.
 

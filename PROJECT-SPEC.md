@@ -1,7 +1,7 @@
 # Design System & Project Specification — Nukto Point Theme
 
 > **Theme Name:** Nukto Point (Creative Agency Theme)  
-> **Reference Site:** https://www.buzzinteractive.co/  
+> **Lead Developer:** Mohammad Farooque  
 > **Client Content:** https://www.behance.net/nukto-poin  
 > **Architecture:** Bespoke WordPress Theme (No page builders, Vanilla JS / GSAP, Native Customizer & CPTs)
 
@@ -13,7 +13,7 @@
 * **Background Deep (Primary Dark):** `#080808` (rich obsidian black)
 * **Background Card / Surface:** `#121212` (subtle dark gray for cards & containers)
 * **Background Elevate / Secondary:** `#181818` (hover states, input fills)
-* **Accent Primary (Signature Hot Pink / Fuchsia):** `#ff00a3` (matches Buzz Interactive signature accent, active states, text selection, hover effects)
+* **Accent Primary (Signature Hot Pink / Fuchsia):** `#ff00a3` (signature agency accent, active states, text selection, hover effects)
 * **Accent Glow:** `rgba(255, 0, 163, 0.35)`
 * **Text Primary (High Contrast):** `#ffffff`
 * **Text Muted / Gray:** `#9e9e9e`
@@ -54,7 +54,7 @@
 
 * **Smooth Scroll:** Lenis smooth scrolling with lerp `0.1` and wheel multiplier `0.5`.
 * **Custom Cursor:** Custom dual-element cursor (center dot `#ff00a3` + outer smoothing ring) with hover expand on links, buttons, and cards.
-* **Scroll-Triggered Hero Expand:** GSAP ScrollTrigger clip-path polygon expand matching reference video reveal.
+* **Scroll-Triggered Hero Expand:** GSAP ScrollTrigger clip-path polygon expand with cinema-style video reveal.
 * **Text Reveal Animation:** Split text skew/reveal with stagger.
 * **Marquee Speed:** 25s continuous infinite CSS loop with pause on hover.
 * **Interactive Physics Canvas:** Matter.js interactive gravity tag bounce canvas in footer.

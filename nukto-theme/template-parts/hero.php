@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 $prefix       = get_theme_mod( 'nukto_hero_prefix', 'Leading Full-Service' );
 $ticker_raw   = get_theme_mod( 'nukto_hero_ticker_items', "Creative Agency\nBranding Studio\nE-Commerce Design\nAdvertising Hub\nMedia Production" );
 $ticker_items = array_filter( array_map( 'trim', explode( "\n", $ticker_raw ) ) );
-$video_url    = get_theme_mod( 'nukto_hero_video_url', 'https://buzz-interactive.b-cdn.net/Buzz%20Interactive%20Showreel%20(1).mp4' );
+$video_url    = get_theme_mod( 'nukto_hero_video_url', 'https://vjs.zencdn.net/v/oceans.mp4' );
 ?>
 <section class="nk-hero" id="hero">
 	<div class="nk-container">

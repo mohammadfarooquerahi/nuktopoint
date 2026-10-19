@@ -81,7 +81,7 @@ function nukto_customize_register( $wp_customize ) {
 	$wp_customize->add_setting(
 		'nukto_hero_video_url',
 		array(
-			'default'           => 'https://buzz-interactive.b-cdn.net/Buzz%20Interactive%20Showreel%20(1).mp4',
+			'default'           => 'https://vjs.zencdn.net/v/oceans.mp4',
 			'sanitize_callback' => 'esc_url_raw',
 			'transport'         => 'refresh',
 		)

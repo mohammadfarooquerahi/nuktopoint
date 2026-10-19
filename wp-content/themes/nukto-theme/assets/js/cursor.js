@@ -1,6 +1,5 @@
 /**
- * Nukto Point - Custom Dual-Ring Magnetic Cursor
- * Inspired by Buzz Interactive's high-precision interactive cursor.
+ * Nukto Point - High-Precision Dual-Ring Magnetic Cursor
  */
 
 (function () {

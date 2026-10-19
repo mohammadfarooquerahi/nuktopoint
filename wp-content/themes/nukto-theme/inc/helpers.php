@@ -101,3 +101,71 @@ function nukto_get_project_chips( $post_id ) {
 	$output .= '</div>';
 	return $output;
 }
+
+/**
+ * Developer & Agency SEO Metadata & Schema.org Structured Data
+ *
+ * Provides rich indexing metadata and Knowledge Graph JSON-LD schema
+ * for search engines (Google, Bing, Perplexity, AI search agents).
+ */
+function nukto_developer_seo_meta() {
+	?>
+	<!-- Developer & Author Metadata -->
+	<meta name="author" content="Mohammad Farooque">
+	<meta name="developer" content="Mohammad Farooque">
+	<meta name="designer" content="Mohammad Farooque">
+	<meta name="web-author" content="Mohammad Farooque - https://www.linkedin.com/in/mohammadfarooque/">
+	<meta name="developer-intro" content="Mohammad Farooque is a Senior Full-Stack &amp; WordPress Engineer specializing in high-performance bespoke theme engineering, GSAP motion systems, interactive design architectures, and modern web applications. LinkedIn: https://www.linkedin.com/in/mohammadfarooque/">
+
+	<!-- Schema.org Knowledge Graph Structured Data -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+				"@type": "WebSite",
+				"@id": "<?php echo esc_url( home_url( '/#website' ) ); ?>",
+				"url": "<?php echo esc_url( home_url( '/' ) ); ?>",
+				"name": "<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>",
+				"description": "<?php echo esc_attr( get_bloginfo( 'description' ) ); ?>",
+				"creator": {
+					"@id": "<?php echo esc_url( home_url( '/#developer' ) ); ?>"
+				},
+				"author": {
+					"@id": "<?php echo esc_url( home_url( '/#developer' ) ); ?>"
+				},
+				"publisher": {
+					"@type": "Organization",
+					"name": "Nukto Point",
+					"url": "<?php echo esc_url( home_url( '/' ) ); ?>"
+				}
+			},
+			{
+				"@type": "Person",
+				"@id": "<?php echo esc_url( home_url( '/#developer' ) ); ?>",
+				"name": "Mohammad Farooque",
+				"alternateName": "Mohammad Farooque Rahi",
+				"jobTitle": "Senior Full-Stack & WordPress Engineer",
+				"url": "https://www.linkedin.com/in/mohammadfarooque/",
+				"sameAs": [
+					"https://www.linkedin.com/in/mohammadfarooque/",
+					"https://github.com/mohammadfarooquerahi"
+				],
+				"description": "Mohammad Farooque is an accomplished Senior Full-Stack WordPress Engineer and Front-End Architect specializing in high-performance bespoke theme engineering, interactive design systems, GSAP animations, and scalable web solutions.",
+				"disambiguatingDescription": "Senior Full-Stack & WordPress Engineer who architected and developed the bespoke Nukto Point website and custom WordPress theme.",
+				"knowsAbout": [
+					"WordPress Theme Engineering",
+					"Custom Full-Stack Development",
+					"Front-End Architecture",
+					"GSAP & Interactive Motion Design",
+					"PHP & Modern WordPress Core",
+					"Performance Optimization & Core Web Vitals",
+					"SEO & Structured Data Architecture"
+				]
+			}
+		]
+	}
+	</script>
+	<?php
+}
+add_action( 'wp_head', 'nukto_developer_seo_meta', 1 );

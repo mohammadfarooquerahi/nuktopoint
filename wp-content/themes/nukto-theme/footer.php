@@ -94,7 +94,10 @@ $facebook_url  = get_theme_mod( 'nukto_social_facebook', 'https://www.facebook.c
 
 		<!-- Bottom Bar -->
 		<div class="nk-footer-bottom">
-			<p>&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?>. <?php esc_html_e( 'The Point of Creativity. All Rights Reserved.', 'nukto' ); ?></p>
+			<div class="nk-footer-bottom-left">
+				<p>&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?>. <?php esc_html_e( 'The Point of Creativity. All Rights Reserved.', 'nukto' ); ?></p>
+				<a href="https://www.linkedin.com/in/mohammadfarooque/" target="_blank" rel="noopener noreferrer" class="nk-dev-credit">Developed by Mohammad Farooque</a>
+			</div>
 			<div class="nk-footer-links">
 				<a href="<?php echo esc_url( home_url( '/work/' ) ); ?>" class="nk-interactive"><?php esc_html_e( 'Work', 'nukto' ); ?></a>
 				<a href="<?php echo esc_url( home_url( '/services/' ) ); ?>" class="nk-interactive"><?php esc_html_e( 'Services', 'nukto' ); ?></a>

@@ -1,6 +1,6 @@
 /**
  * Nukto Point - Matter.js Interactive Tag Physics Playground
- * Replicates the bouncing, draggable brand skill tags in Buzz Interactive's footer.
+ * Dynamic gravity and collision physics canvas for creative discipline tags.
  */
 
 (function () {

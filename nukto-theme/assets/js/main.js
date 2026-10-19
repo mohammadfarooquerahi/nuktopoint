@@ -105,7 +105,7 @@
             { y: 0, opacity: 1, duration: 0.9, ease: 'power3.out' }
         );
 
-        // GSAP ScrollTrigger Video Expansion (Buzz Interactive signature style)
+        // GSAP ScrollTrigger Video Expansion (Signature Cinema Reveal)
         if (typeof ScrollTrigger !== 'undefined' && document.getElementById('heroVideoWrapper')) {
             gsap.to('#heroVideoWrapper', {
                 scrollTrigger: {
