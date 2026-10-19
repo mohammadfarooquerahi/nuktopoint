@@ -10,16 +10,17 @@
 ## 1. Brand Identity & Tokens
 
 ### Color Palette (Hex Codes)
-* **Background Deep (Primary Dark):** `#080808` (rich obsidian black)
-* **Background Card / Surface:** `#121212` (subtle dark gray for cards & containers)
-* **Background Elevate / Secondary:** `#181818` (hover states, input fills)
-* **Accent Primary (Signature Hot Pink / Fuchsia):** `#ff00a3` (signature agency accent, active states, text selection, hover effects)
-* **Accent Glow:** `rgba(255, 0, 163, 0.35)`
-* **Text Primary (High Contrast):** `#ffffff`
-* **Text Muted / Gray:** `#9e9e9e`
-* **Text Dark:** `#080808` (for light badges/chips)
-* **Border Subtle:** `rgba(255, 255, 255, 0.12)`
-* **Border Accent:** `rgba(255, 0, 163, 0.4)`
+* **Background Deep (Primary Canvas):** `#ffffff` (crisp studio white)
+* **Background Card / Surface:** `#f8f9fc` (porcelain with subtle cool indigo undertone)
+* **Background Elevate / Secondary:** `#f0f1fa` (hover fills, active containers)
+* **Accent Primary (Logo Deep Indigo):** `#3c387c` (extracted directly from Nukto logo dot & wordmark)
+* **Accent Active / Hover (Electric Indigo):** `#4f46e5` (active interactive states, focus rings)
+* **Accent Glow:** `rgba(60, 56, 124, 0.20)`
+* **Text Primary (High Contrast):** `#111026` (midnight obsidian ink)
+* **Text Muted / Slate:** `#585772` (WCAG AAA compliant readability)
+* **Text Dim:** `#8c8ba5`
+* **Border Subtle:** `rgba(60, 56, 124, 0.10)`
+* **Border Accent:** `rgba(60, 56, 124, 0.35)`
 
 ### Typography Scale
 * **Primary Font Family:** `'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif`
@@ -53,7 +54,7 @@
 ## 2. Interactive & Motion Tokens
 
 * **Smooth Scroll:** Lenis smooth scrolling with lerp `0.1` and wheel multiplier `0.5`.
-* **Custom Cursor:** Custom dual-element cursor (center dot `#ff00a3` + outer smoothing ring) with hover expand on links, buttons, and cards.
+* **Custom Cursor:** Custom dual-element cursor (center dot `#3c387c` + outer smoothing ring) with hover expand on links, buttons, and cards.
 * **Scroll-Triggered Hero Expand:** GSAP ScrollTrigger clip-path polygon expand with cinema-style video reveal.
 * **Text Reveal Animation:** Split text skew/reveal with stagger.
 * **Marquee Speed:** 25s continuous infinite CSS loop with pause on hover.

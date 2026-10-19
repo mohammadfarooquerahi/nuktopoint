@@ -9,7 +9,7 @@
 
 - **No Page Builders, No Bloat:** Zero Elementor, zero WPBakery, zero starter-theme baggage. Pure semantic HTML5, modern CSS custom properties, and native WordPress template architecture.
 - **Visual Design Identity:**
-  - Ultra-dark aesthetic: Canvas background `#080808` with signature electric magenta accents (`#ff00a3`).
+  - Crisp editorial aesthetic: Studio white canvas (`#ffffff`) with deep royal indigo (`#3c387c`) and electric iris (`#4f46e5`) accents derived directly from the official Nukto Point brand identity.
   - Strict typographic scale powered by Google Fonts *Montserrat*.
 - **Cutting-Edge Interactive Dynamics:**
   - **Custom Dual-Ring Magnetic Cursor:** Lerp-smoothed outer ring, responsive hover states, dynamic text labels (`VIEW`, `PLAY`, `EXPLORE`), and touch-device auto-disabling.

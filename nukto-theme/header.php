@@ -31,8 +31,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<div class="nk-header-inner">
 			<!-- Logo -->
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="nk-logo-link nk-interactive" rel="home">
-				<span class="nk-logo-symbol" aria-hidden="true"><span class="nk-logo-dot"></span></span>
-				<span class="nk-logo-text">NUKTO<span class="nk-logo-accent">POINT</span></span>
+				<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/branding/nukto_logo.png' ); ?>" alt="<?php bloginfo( 'name' ); ?>" class="nk-header-logo-img">
+				<span class="nk-logo-text">Nuktopoint</span>
 			</a>
 
 			<!-- Desktop Navigation -->

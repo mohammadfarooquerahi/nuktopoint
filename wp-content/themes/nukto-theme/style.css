@@ -15,20 +15,20 @@ Text Domain: nukto
    1. CSS Custom Properties / Design Tokens
    ========================================================================== */
 :root {
-  /* Colors */
-  --nk-bg-deep: #080808;
-  --nk-bg-card: #121212;
-  --nk-bg-elevate: #181818;
-  --nk-bg-input: #1a1a1a;
-  --nk-accent: #ff00a3;
-  --nk-accent-hover: #e0008f;
-  --nk-accent-glow: rgba(255, 0, 163, 0.35);
-  --nk-text-primary: #ffffff;
-  --nk-text-muted: #9e9e9e;
-  --nk-text-dim: #666666;
-  --nk-text-dark: #080808;
-  --nk-border-subtle: rgba(255, 255, 255, 0.12);
-  --nk-border-accent: rgba(255, 0, 163, 0.4);
+  /* Colors - White & Logo Indigo Architecture */
+  --nk-bg-deep: #ffffff;
+  --nk-bg-card: #f8f9fc;
+  --nk-bg-elevate: #f0f1fa;
+  --nk-bg-input: #ffffff;
+  --nk-accent: #3c387c;
+  --nk-accent-hover: #4f46e5;
+  --nk-accent-glow: rgba(60, 56, 124, 0.20);
+  --nk-text-primary: #111026;
+  --nk-text-muted: #585772;
+  --nk-text-dim: #8c8ba5;
+  --nk-text-dark: #111026;
+  --nk-border-subtle: rgba(60, 56, 124, 0.10);
+  --nk-border-accent: rgba(60, 56, 124, 0.35);
   --nk-white: #ffffff;
   --nk-black: #000000;
   --nk-success: #10b981;
@@ -227,7 +227,7 @@ ul, ol {
   left: 0;
   width: 38px;
   height: 38px;
-  border: 1.5px solid rgba(255, 0, 163, 0.7);
+  border: 1.5px solid rgba(60, 56, 124, 0.6);
   border-radius: 50%;
   pointer-events: none;
   z-index: 9999999;
@@ -245,7 +245,7 @@ ul, ol {
   width: 64px;
   height: 64px;
   border-color: var(--nk-accent);
-  background-color: rgba(255, 0, 163, 0.18);
+  background-color: rgba(60, 56, 124, 0.10);
   backdrop-filter: blur(2px);
 }
 
@@ -268,11 +268,12 @@ ul, ol {
   width: 100%;
   height: var(--nk-header-height);
   z-index: 99990;
-  background-color: rgba(8, 8, 8, 0.92);
+  background-color: rgba(255, 255, 255, 0.94);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  transition: transform 0.35s ease, background-color 0.3s ease;
+  border-bottom: 1px solid rgba(60, 56, 124, 0.08);
+  box-shadow: 0 2px 20px rgba(60, 56, 124, 0.04);
+  transition: transform 0.35s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 body.admin-bar .nk-header {
@@ -299,23 +300,31 @@ body.admin-bar .nk-header {
   text-decoration: none;
 }
 
+.nk-header-logo-img {
+  height: 38px;
+  width: auto;
+  max-width: 160px;
+  object-fit: contain;
+  display: block;
+}
+
 .nk-logo-symbol {
   width: 36px;
   height: 36px;
-  background: linear-gradient(135deg, #ff00a3 0%, #b80075 100%);
+  background: linear-gradient(135deg, #3c387c 0%, #24206e 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  box-shadow: 0 0 16px rgba(255, 0, 163, 0.45);
+  box-shadow: 0 0 16px rgba(60, 56, 124, 0.3);
   flex-shrink: 0;
 }
 
 .nk-logo-dot {
   width: 12px;
   height: 12px;
-  background-color: #080808;
+  background-color: #ffffff;
   border-radius: 50%;
   display: block;
 }
@@ -325,8 +334,7 @@ body.admin-bar .nk-header {
   font-weight: 800;
   font-size: 1.35rem;
   letter-spacing: -0.02em;
-  color: #ffffff;
-  text-transform: uppercase;
+  color: var(--nk-text-primary);
   line-height: 1;
 }
 
@@ -368,7 +376,7 @@ ul.nk-nav {
   font-weight: 600;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #a8a8a8;
+  color: var(--nk-text-muted);
   position: relative;
   padding: 0.5rem 0;
   transition: color 0.25s ease;
@@ -377,7 +385,7 @@ ul.nk-nav {
 
 .nk-nav-link:hover,
 .nk-nav-link.is-active {
-  color: #ffffff;
+  color: var(--nk-accent);
 }
 
 .nk-nav-link::after {
@@ -594,7 +602,7 @@ ul.nk-nav {
 .nk-preloader-bar-wrap {
   width: 100%;
   height: 2px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(60, 56, 124, 0.10);
   border-radius: var(--nk-radius-pill);
   overflow: hidden;
   margin-bottom: 1.5rem;
@@ -896,7 +904,7 @@ body.admin-bar .nk-hero {
 .nk-project-card:hover {
   transform: translateY(-6px);
   border-color: var(--nk-border-accent);
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 16px 40px rgba(60, 56, 124, 0.12);
 }
 
 .nk-card-media {
@@ -943,18 +951,18 @@ body.admin-bar .nk-hero {
 .nk-chip {
   display: inline-block;
   padding: 0.35rem 0.85rem;
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: rgba(60, 56, 124, 0.08);
   border-radius: var(--nk-radius-pill);
   font-size: 0.75rem;
   font-weight: var(--nk-fw-semibold);
   letter-spacing: 0.04em;
-  color: var(--nk-text-muted);
+  color: var(--nk-accent);
   transition: all 0.3s ease;
 }
 
 .nk-project-card:hover .nk-chip {
-  background-color: rgba(255, 0, 163, 0.2);
-  color: var(--nk-white);
+  background-color: var(--nk-accent);
+  color: #ffffff;
 }
 
 .nk-card-title {
@@ -1095,8 +1103,8 @@ body.admin-bar .nk-hero {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background-color: rgba(60, 56, 124, 0.05);
+  border: 1px solid rgba(60, 56, 124, 0.12);
   padding: 0.45rem 1rem;
   border-radius: var(--nk-radius-pill);
   font-size: 0.875rem;
@@ -1112,7 +1120,7 @@ body.admin-bar .nk-hero {
 }
 
 .nk-service-card:hover .nk-service-pill-item {
-  border-color: rgba(255, 0, 163, 0.3);
+  border-color: rgba(60, 56, 124, 0.35);
 }
 
 /* ==========================================================================
@@ -1136,7 +1144,7 @@ body.admin-bar .nk-hero {
 .nk-about-headline .nk-highlight-badge {
   display: inline-flex;
   align-items: center;
-  background: rgba(255, 0, 163, 0.15);
+  background: rgba(60, 56, 124, 0.10);
   border: 1px solid var(--nk-accent);
   padding: 0.1em 0.3em;
   border-radius: 8px;
@@ -1616,12 +1624,13 @@ body.admin-bar .nk-hero {
   align-items: center;
   justify-content: center;
   padding: 8px 18px;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: #ffffff;
+  border: 1px solid rgba(60, 56, 124, 0.15);
   border-radius: var(--nk-radius-pill);
-  color: var(--nk-text-primary);
+  color: var(--nk-accent);
+  box-shadow: 0 2px 10px rgba(60, 56, 124, 0.04);
   font-size: 0.8125rem;
-  font-weight: var(--nk-fw-medium);
+  font-weight: var(--nk-fw-semibold);
   letter-spacing: 0.05em;
   text-transform: uppercase;
   white-space: nowrap;
@@ -1629,12 +1638,14 @@ body.admin-bar .nk-hero {
   cursor: grab;
   will-change: transform;
   pointer-events: auto;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .nk-physics-tag:hover {
   border-color: var(--nk-accent);
-  color: var(--nk-accent);
-  box-shadow: 0 0 15px rgba(255, 0, 163, 0.35);
+  background-color: var(--nk-accent);
+  color: #ffffff;
+  box-shadow: 0 4px 16px rgba(60, 56, 124, 0.25);
 }
 
 /* Giant Watermark Logo in Footer */
@@ -1644,7 +1655,7 @@ body.admin-bar .nk-hero {
   font-size: clamp(4rem, 15vw, 15rem);
   font-weight: var(--nk-fw-black);
   letter-spacing: -0.04em;
-  color: rgba(255, 255, 255, 0.03);
+  color: rgba(60, 56, 124, 0.04);
   user-select: none;
   line-height: 0.9;
   margin-bottom: 2rem;
@@ -1670,7 +1681,7 @@ body.admin-bar .nk-hero {
 /* Subtle Developer Attribution Link */
 .nk-dev-credit {
   display: inline-block;
-  color: #ffffff;
+  color: var(--nk-text-primary, #111026);
   opacity: 0.05;
   font-size: 0.72rem;
   line-height: 1.4;
@@ -1683,7 +1694,7 @@ body.admin-bar .nk-hero {
 .nk-dev-credit:hover,
 .nk-dev-credit:focus {
   opacity: 0.10;
-  color: #ffffff;
+  color: var(--nk-text-primary, #111026);
   text-decoration: none;
 }
 
@@ -1885,8 +1896,8 @@ body.admin-bar .nk-hero {
   position: relative;
   padding-top: calc(var(--nk-header-height) + 4.5rem);
   padding-bottom: 3.5rem;
-  background: radial-gradient(circle at 80% 20%, rgba(255, 0, 163, 0.08) 0%, transparent 60%);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  background: radial-gradient(circle at 80% 20%, rgba(60, 56, 124, 0.05) 0%, transparent 60%);
+  border-bottom: 1px solid rgba(60, 56, 124, 0.08);
 }
 
 body.admin-bar .nk-page-hero {
@@ -1903,7 +1914,7 @@ body.admin-bar .nk-page-hero {
   font-size: clamp(2.2rem, 5vw, 4.2rem);
   font-weight: var(--nk-fw-black);
   letter-spacing: -0.03em;
-  color: #ffffff;
+  color: var(--nk-text-primary);
   line-height: 1.1;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
@@ -1925,8 +1936,9 @@ body.admin-bar .nk-page-hero {
 }
 
 .nk-filter-pill {
-  background-color: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  background-color: #ffffff;
+  border: 1px solid rgba(60, 56, 124, 0.15);
+  box-shadow: 0 2px 8px rgba(60, 56, 124, 0.04);
   color: var(--nk-text-muted);
   padding: 0.6rem 1.4rem;
   border-radius: var(--nk-radius-pill);
@@ -2029,9 +2041,9 @@ body.admin-bar .nk-page-hero {
 
 /* 4-Stage Creative Framework */
 .nk-process-section {
-  background-color: rgba(255, 255, 255, 0.02);
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  background-color: #f8f9fc;
+  border-top: 1px solid rgba(60, 56, 124, 0.08);
+  border-bottom: 1px solid rgba(60, 56, 124, 0.08);
 }
 
 .nk-process-grid {
@@ -2212,8 +2224,8 @@ body.admin-bar .nk-page-hero {
   font-weight: var(--nk-fw-bold);
   color: var(--nk-accent);
   padding: 0.6rem 1.25rem;
-  background-color: rgba(255, 0, 163, 0.08);
-  border: 1px solid rgba(255, 0, 163, 0.3);
+  background-color: rgba(60, 56, 124, 0.08);
+  border: 1px solid rgba(60, 56, 124, 0.25);
   border-radius: var(--nk-radius-pill);
   text-align: center;
   white-space: nowrap;
@@ -2243,7 +2255,7 @@ body.admin-bar .nk-page-hero {
 .nk-timeline-org {
   font-size: 1.35rem;
   font-weight: var(--nk-fw-bold);
-  color: #ffffff;
+  color: var(--nk-text-primary);
   margin: 0.35rem 0;
 }
 
@@ -2350,7 +2362,7 @@ body.admin-bar .nk-page-hero {
 .nk-direct-h3 {
   font-size: 1.5rem;
   font-weight: var(--nk-fw-bold);
-  color: #ffffff;
+  color: var(--nk-text-primary);
   margin: 0.75rem 0 0.5rem;
 }
 
@@ -2372,10 +2384,11 @@ body.admin-bar .nk-page-hero {
   align-items: center;
   gap: 0.85rem;
   padding: 0.85rem 1.25rem;
-  background-color: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #ffffff;
+  border: 1px solid rgba(60, 56, 124, 0.15);
+  box-shadow: 0 2px 8px rgba(60, 56, 124, 0.04);
   border-radius: var(--nk-radius-sm);
-  color: #ffffff;
+  color: var(--nk-text-primary);
   font-size: 0.938rem;
   font-weight: var(--nk-fw-semibold);
   text-decoration: none;
@@ -2398,7 +2411,7 @@ body.admin-bar .nk-page-hero {
 .nk-wa-btn:hover {
   background-color: #25d366;
   border-color: #25d366;
-  color: #080808;
+  color: #ffffff;
 }
 
 .nk-hubs-card {
@@ -2412,13 +2425,13 @@ body.admin-bar .nk-page-hero {
 .nk-hubs-title {
   font-size: 1.125rem;
   font-weight: var(--nk-fw-bold);
-  color: #ffffff;
+  color: var(--nk-text-primary);
   margin-bottom: 1.25rem;
 }
 
 .nk-hub-item {
   padding: 1rem 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(60, 56, 124, 0.08);
 }
 
 .nk-hub-item:last-child {
@@ -2449,8 +2462,8 @@ body.admin-bar .nk-page-hero {
   display: flex;
   align-items: center;
   gap: 1rem;
-  background-color: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background-color: #f8f9fc;
+  border: 1px solid rgba(60, 56, 124, 0.08);
   border-radius: var(--nk-radius-sm);
   padding: 1.15rem 1.5rem;
 }
@@ -2462,7 +2475,7 @@ body.admin-bar .nk-page-hero {
 .nk-g-text strong {
   display: block;
   font-size: 0.938rem;
-  color: #ffffff;
+  color: var(--nk-text-primary);
 }
 
 .nk-g-text span {
@@ -2473,15 +2486,15 @@ body.admin-bar .nk-page-hero {
 
 /* Inner Page CTA */
 .nk-inner-cta-section {
-  background: radial-gradient(circle at 50% 50%, rgba(255, 0, 163, 0.06) 0%, transparent 70%);
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  background: radial-gradient(circle at 50% 50%, rgba(60, 56, 124, 0.05) 0%, transparent 70%);
+  border-top: 1px solid rgba(60, 56, 124, 0.08);
   padding: 6rem 0;
 }
 
 .nk-cta-h2 {
   font-size: clamp(2rem, 4vw, 3.2rem);
   font-weight: var(--nk-fw-black);
-  color: #ffffff;
+  color: var(--nk-text-primary);
   letter-spacing: -0.02em;
   margin: 1rem auto 1.25rem;
   max-width: 780px;

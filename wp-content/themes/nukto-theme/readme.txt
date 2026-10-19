@@ -12,7 +12,7 @@ Nukto Point is an avant-garde, ultra-dark WordPress theme built from scratch for
 == Description ==
 
 Nukto Point is crafted without heavy visual page builders or starter-theme bloat. It features:
-* Ultra-dark `#080808` aesthetic with signature electric magenta `#ff00a3` accents.
+* Crisp `#ffffff` white aesthetic with signature deep royal indigo `#3c387c` brand accents.
 * Dual-ring magnetic cursor following mouse dynamics.
 * Lenis smooth scrolling with GSAP ScrollTrigger orchestration.
 * Expanding hero showreel card interaction.

@@ -1,5 +1,21 @@
 # 📝 CHANGELOG & ARCHITECTURAL LOG
 
+## [1.2.0] - 2026-10-20 — White Theme & Official Logo Integration Release
+### Added & Redesigned
+- **White Background Canvas Architecture:**
+  - Transitioned the entire theme design system from ultra-dark to an avant-garde, pristine studio white (`#ffffff`) canvas.
+  - Re-engineered all surfaces, cards, and sections using a subtle porcelain/alabaster tint (`#f8f9fc`) with deep midnight ink typography (`#111026`) and slate gray body text (`#585772`).
+- **Official Brand Logo Integration:**
+  - Integrated official client logo `nukto_logo.png` into `assets/images/branding/`.
+  - Updated `header.php` to display the official logo image alongside the brand name **Nuktopoint**.
+  - Generated transparent logo assets with smooth anti-aliased alpha borders.
+- **Color Palette Derived from Logo:**
+  - Extracted dominant brand hue `#3c387c` (Deep Royal Indigo) from the logo dot and wordmark.
+  - Paired with `#4f46e5` (Electric Iris) for interactive hover states, active filter pills, button hover effects, and cursor tracking.
+  - Replaced all pink/magenta accents across cursor, cards, buttons, physics tags, and timelines with the new harmonious royal indigo palette.
+- **Updated Theme Preview:**
+  - Regenerated standard 1200x900 `screenshot.png` showcasing the new white & royal indigo brand aesthetic with real project cards and the official logo.
+
 ## [1.1.0] - 2026-10-19 — Multi-Page Architecture Release
 ### Added
 - **Dedicated Multi-Page Templates:**
