@@ -1,0 +1,37 @@
+{
+  "data": {
+    "id": 0,
+    "etag": "",
+    "title": "",
+    "encoded_title": "",
+    "description": "",
+    "thumbnail_url": "",
+    "start_timestamp": "",
+    "duration_seconds": 0,
+    "transition_seconds": 0,
+    "url": "",
+    "creative_category": {
+      "id": null,
+      "name": ""
+    },
+    "users": [],
+    "tools": [],
+    "sections": [],
+    "custom_banner_info": {
+      "id": null,
+      "name": ""
+    },
+    "custom_tab_info": {
+      "id": null,
+      "name": ""
+    },
+    "content_language": "",
+    "tags": []
+  },
+  "chat": {
+    "channelId": null,
+    "appKey": null
+  },
+  "errors": {},
+  "saving": false
+}

@@ -1,0 +1,71 @@
+# 📝 CHANGELOG & ARCHITECTURAL LOG
+
+## [1.1.0] - 2026-10-19 — Multi-Page Architecture Release
+### Added
+- **Dedicated Multi-Page Templates:**
+  - `page-work.php`: Dedicated `/work/` page featuring real-time category filter pills (Branding, E-Commerce, Outdoor, Social Media, Strategy), masonry grid, and project callout.
+  - `page-services.php`: Dedicated `/services/` page with deep-dive breakdown of 5 agency capabilities, deliverable checklists, and the "4-Stage Creative Engine" methodology.
+  - `page-about.php`: Dedicated `/about/` page with lead designer profile, M.Phil credentials, and an institutional career timeline (Pak-Turk Maarif, SZABIST, Switch Studio, Eastline, KTN TV).
+  - `page-reviews.php`: Dedicated `/reviews/` page with 5-star institutional client reviews, quotes, and impact statistics.
+  - `page-contact.php`: Dedicated `/contact/` page with project brief form, direct WhatsApp/Email links, 3-city hub cards (Islamabad, Karachi, Hyderabad), and 24h response guarantee.
+- **Automated Core Page & Menu Provisioning:**
+  - Added `nukto_auto_create_core_pages()` to `functions.php` to automatically generate all 5 dedicated pages and bind their respective page templates upon theme activation/init.
+  - Rewrote header navigation, mobile drawer, and footer links to route to dedicated URLs (`/work/`, `/services/`, `/about/`, `/reviews/`, `/contact/`).
+  - Added real-time portfolio filter pill engine in `main.js`.
+- **UI & Cursor Enhancements:**
+  - Added `body.admin-bar` top offsets (`32px` desktop, `46px` mobile) to prevent admin bar collision with the sticky navbar.
+  - Created bold `NUKTO POINT` brand wordmark with glowing gradient core emblem.
+  - Removed coarse pointer restrictions in `cursor.js` so dual-ring magnetic cursor activates instantly on any mouse movement.
+  - Complete scrape of Nukto Point's Behance profile (`behance.net/nukto-poin`).
+  - Saved full structured data to `/content/content.json` (agency info, 12 real projects, academic credentials, past roles, services).
+  - Downloaded 12 high-res project cover images and client avatar into `/assets/images/`.
+  - Created `/content/MISSING.md` documenting non-blocking client placeholders.
+- **Step 2: Theme Structure:**
+  - `style.css`: Responsive CSS design system with CSS custom properties (`--bg: #080808`, `--accent: #ff00a3`, Montserrat font scales).
+  - `functions.php`: Complete theme setup, menus, thumbnail sizes, HTML5 support, theme support, custom navigation walker.
+  - `header.php`: High-tech navigation with status ticker, live time badge, synthesized audio toggle, hamburger menu.
+  - `footer.php`: Global interactive footer with brand statement, direct contact info, location pills, copyright, back to top.
+  - `template-parts/`:
+    - `custom-cursor.php`: Dual-ring magnetic cursor markup.
+    - `preloader.php`: 0-100 numeric preloader overlay.
+    - `hero.php`: Massive headline, subheader, expanding showreel trigger.
+    - `marquee.php`: Infinite running capabilities ticker.
+    - `project-card.php`: Modular project card with hover states and tags.
+    - `work-grid.php`: Homepage portfolio grid.
+    - `services.php`: Split view interactive service list.
+    - `about.php`: Lead designer narrative, SZABIST/Pak-Turk/Switch Studio credentials, avatar.
+    - `stats.php`: 10+ years, 66+ appreciations, 440+ views, 98% satisfaction rate.
+    - `testimonials.php`: Client endorsements and quotes.
+    - `contact-form.php`: Interactive AJAX contact form with nonce verification.
+    - `footer-canvas.php`: Matter.js tag-cloud container.
+  - Core Template Hierarchy:
+    - `front-page.php`: Homepage assembly.
+    - `single-project.php`: Detailed case study template with meta summary and adjacent navigation.
+    - `archive-project.php`: Filterable portfolio directory with category pills.
+    - `page.php`: Standard inner page template.
+    - `single.php`: Single blog post template.
+    - `archive.php`: Archive taxonomy listing.
+    - `index.php`: Generic fallback.
+    - `404.php`: Glitch/neon 404 error page.
+    - `search.php`: Search results template.
+    - `searchform.php`: Dark neon search form.
+- **Step 3: Core Features & Engines:**
+  - `assets/js/cursor.js`: Lerp-smoothed magnetic cursor with label tooltips.
+  - `assets/js/physics.js`: Matter.js 2D physics tag playground with mouse and touch drag constraints.
+  - `assets/js/main.js`: Lenis smooth scrolling, GSAP ScrollTrigger showreel expansion, Web Audio hum generator, AJAX form transmission.
+  - `inc/custom-post-types.php`: CPT `project`, taxonomy `project_category`, meta boxes.
+  - `inc/customizer.php`: Live preview controls for all homepage sections.
+  - `inc/helpers.php`: AJAX contact form processor (`nukto_submit_contact`).
+  - `inc/enqueue.php`: Scripts, Google Fonts, Matter.js, GSAP, Lenis.
+- **Step 4: WordPress Standards Compliance:**
+  - Full output escaping (`esc_html`, `esc_url`, `esc_attr`, `wp_kses_post`) and input sanitization.
+  - `php -l` syntax validation: 100% pass across all PHP files.
+- **Step 5: Content Import:**
+  - `content/import.xml`: WXR 1.2 WordPress import file with pages, taxonomies, and 12 projects.
+  - `content/import-content.php`: Turnkey WP-CLI/PHP auto-import script.
+- **Step 6: Packaging & Delivery:**
+  - `nukto-theme/screenshot.png`: 1200x900 theme preview graphic.
+  - `nukto-theme/readme.txt`: WordPress theme standard readme.
+  - `nukto-theme.zip`: Production distributable archive.
+  - `wp-content/themes/nukto-theme`: Synchronized installation path.
+  - `README.md`, `NUKTO_CLIENT_MANUAL.md`, `NUKTO_CLIENT_MANUAL.html`.

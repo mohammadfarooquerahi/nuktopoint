@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This is a WordPress eXtended RSS file generated for Nukto Point -->
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+    <title>Nukto Point</title>
+    <link>http://localhost</link>
+    <description>The Point of Creativity | Communication Design &amp; Visual Strategy</description>
+    <pubDate>Mon, 19 Oct 2026 06:05:50 +0000</pubDate>
+    <language>en-US</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>http://localhost</wp:base_site_url>
+    <wp:base_blog_url>http://localhost</wp:base_blog_url>
+    <wp:author>
+        <wp:author_id>1</wp:author_id>
+        <wp:author_login>admin</wp:author_login>
+        <wp:author_email>nuktopoint@gmail.com</wp:author_email>
+        <wp:author_display_name><![CDATA[Nukto Point]]></wp:author_display_name>
+        <wp:author_first_name><![CDATA[Nukto]]></wp:author_first_name>
+        <wp:author_last_name><![CDATA[Point]]></wp:author_last_name>
+    </wp:author>
+    <wp:term>
+        <wp:term_id>102</wp:term_id>
+        <wp:term_taxonomy>project_category</wp:term_taxonomy>
+        <wp:term_slug><![CDATA[branding-visual-identity]]></wp:term_slug>
+        <wp:term_name><![CDATA[Branding & Visual Identity]]></wp:term_name>
+    </wp:term>
+    <wp:term>
+        <wp:term_id>472</wp:term_id>
+        <wp:term_taxonomy>project_category</wp:term_taxonomy>
+        <wp:term_slug><![CDATA[ecommerce-amazon]]></wp:term_slug>
+        <wp:term_name><![CDATA[E-Commerce & Amazon Creative]]></wp:term_name>
+    </wp:term>
+    <wp:term>
+        <wp:term_id>864</wp:term_id>
+        <wp:term_taxonomy>project_category</wp:term_taxonomy>
+        <wp:term_slug><![CDATA[advertising-outdoor]]></wp:term_slug>
+        <wp:term_name><![CDATA[Advertising & Print Media]]></wp:term_name>
+    </wp:term>
+    <wp:term>
+        <wp:term_id>546</wp:term_id>
+        <wp:term_taxonomy>project_category</wp:term_taxonomy>
+        <wp:term_slug><![CDATA[social-media-campaigns]]></wp:term_slug>
+        <wp:term_name><![CDATA[Social Media & Campaigns]]></wp:term_name>
+    </wp:term>
+    <wp:term>
+        <wp:term_id>83</wp:term_id>
+        <wp:term_taxonomy>project_category</wp:term_taxonomy>
+        <wp:term_slug><![CDATA[brand-strategy-pr]]></wp:term_slug>
+        <wp:term_name><![CDATA[Brand Strategy & PR]]></wp:term_name>
+    </wp:term>
+    <item>
+        <title><![CDATA[Home]]></title>
+        <link>http://localhost/home/</link>
+        <pubDate>Mon, 19 Oct 2026 06:05:50 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://localhost/?page_id=101</guid>
+        <description></description>
+        <content:encoded><![CDATA[Nukto Point front page.]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>101</wp:post_id>
+        <wp:post_date><![CDATA[2026-10-19 06:05:50]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-10-19 06:05:50]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[home]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+            <wp:meta_value><![CDATA[front-page.php]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[Work]]></title>
+        <link>http://localhost/work/</link>
+        <pubDate>Mon, 19 Oct 2026 06:05:50 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://localhost/?page_id=102</guid>
+        <description></description>
+        <content:encoded><![CDATA[A curation of strategic communication design, brand systems, and campaigns.]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>102</wp:post_id>
+        <wp:post_date><![CDATA[2026-10-19 06:05:50]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-10-19 06:05:50]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[work]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+    <item>
+        <title><![CDATA[About]]></title>
+        <link>http://localhost/about/</link>
+        <pubDate>Mon, 19 Oct 2026 06:05:50 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://localhost/?page_id=103</guid>
+        <description></description>
+        <content:encoded><![CDATA[I am a Communication Designer with an M.Phil. in Art & Design and over 10 years of experience in graphic design, photography, video editing, and public relations. My work blends creativity with strategic communication to build strong visual identities and meaningful brand experiences.
+
+Having worked across educational institutions and corporate sectors, I bring a multidisciplinary approach to every project — from concept development to final execution. I am passionate about visual storytelling, detail-oriented design, and continuous learning. I strive to create impactful, purposeful designs that communicate clearly, inspire audiences, and add real value to brands and organizations.]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>103</wp:post_id>
+        <wp:post_date><![CDATA[2026-10-19 06:05:50]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-10-19 06:05:50]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[about]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+    <item>
+        <title><![CDATA[Contact]]></title>
+        <link>http://localhost/contact/</link>
+        <pubDate>Mon, 19 Oct 2026 06:05:50 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://localhost/?page_id=104</guid>
+        <description></description>
+        <content:encoded><![CDATA[Get in touch with Nukto Point.]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>104</wp:post_id>
+        <wp:post_date><![CDATA[2026-10-19 06:05:50]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-10-19 06:05:50]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[contact]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[page]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+    <item>
+        <title><![CDATA[Amazon Listing Images | Scissor]]></title>
+        <link>http://localhost/project/amazon-listing-images-scissor/</link>
+        <pubDate>Mon, 19 Oct 2026 06:05:50 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://localhost/?post_type=project&amp;p=105</guid>
+        <description></description>
+        <content:encoded><![CDATA[High-converting Amazon product listing image set for professional scissors, featuring infographic callouts, dimensional breakdowns, ergonomic handle highlighting, and high-impact lifestyle imagery.]]></content:encoded>
+        <excerpt:encoded><![CDATA[High-converting Amazon product listing image set for professional scissors, featuring infographic callouts, dimensional ...]]></excerpt:encoded>
+        <wp:post_id>105</wp:post_id>
+        <wp:post_date><![CDATA[2026-10-19 06:05:50]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-10-19 06:05:50]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[amazon-listing-images-scissor]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type><![CDATA[project]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="project_category" nicename="ecommerce-amazon"><![CDATA[E-Commerce & Amazon]]></category>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_client_name]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Apex Cutlery / Amazon Brand]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_year]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2024]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_services]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Amazon Listing, Product Photography, EBC / A+ Design, E-Commerce]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_link]]></wp:meta_key>
+            <wp:meta_value><![CDATA[https://www.behance.net/gallery/257277557/amazon-listing-images-scissor]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_card_size]]></wp:meta_key>
+            <wp:meta_value><![CDATA[large]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[University Campaign | Billboard Design]]></title>
+        <link>http://localhost/project/university-project-billboard-design/</link>
+        <pubDate>Mon, 19 Oct 2026 06:05:50 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://localhost/?post_type=project&amp;p=106</guid>
+        <description></description>
+        <content:encoded><![CDATA[Large-format outdoor billboard campaign design crafted to drive student admissions, focusing on institutional prestige, modern typography, and vibrant visual hierarchy.]]></content:encoded>
+        <excerpt:encoded><![CDATA[Large-format outdoor billboard campaign design crafted to drive student admissions, focusing on institutional prestige, ...]]></excerpt:encoded>
+        <wp:post_id>106</wp:post_id>
+        <wp:post_date><![CDATA[2026-10-19 06:05:50]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-10-19 06:05:50]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[university-project-billboard-design]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>1</wp:menu_order>
+        <wp:post_type><![CDATA[project]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="project_category" nicename="advertising-outdoor"><![CDATA[Outdoor & Print]]></category>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_client_name]]></wp:meta_key>
+            <wp:meta_value><![CDATA[SZABIST University]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_year]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2024]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_services]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Billboard, Academic Branding, Outdoor Advertising, Print Media]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_link]]></wp:meta_key>
+            <wp:meta_value><![CDATA[https://www.behance.net/gallery/257058005/university-project-billboard-design]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_card_size]]></wp:meta_key>
+            <wp:meta_value><![CDATA[regular]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[Packaging & Amazon Product Listing Design]]></title>
+        <link>http://localhost/project/packaging-and-listing-design-amazon/</link>
+        <pubDate>Mon, 19 Oct 2026 06:05:50 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://localhost/?post_type=project&amp;p=107</guid>
+        <description></description>
+        <content:encoded><![CDATA[End-to-end product packaging dieline design paired with Amazon listing creative assets, creating a cohesive unboxing experience and strong digital shelf presence.]]></content:encoded>
+        <excerpt:encoded><![CDATA[End-to-end product packaging dieline design paired with Amazon listing creative assets, creating a cohesive unboxing exp...]]></excerpt:encoded>
+        <wp:post_id>107</wp:post_id>
+        <wp:post_date><![CDATA[2026-10-19 06:05:50]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-10-19 06:05:50]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[packaging-and-listing-design-amazon]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>2</wp:menu_order>
+        <wp:post_type><![CDATA[project]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="project_category" nicename="branding-visual-identity"><![CDATA[Packaging & Branding]]></category>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_client_name]]></wp:meta_key>
+            <wp:meta_value><![CDATA[D2C Retail Brand]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_year]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2024]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_services]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Packaging Design, Box Dieline, Amazon Listing, Brand Identity]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_link]]></wp:meta_key>
+            <wp:meta_value><![CDATA[https://www.behance.net/gallery/249888041/packaging-and-listing-design-amazon]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_card_size]]></wp:meta_key>
+            <wp:meta_value><![CDATA[regular]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[Digital Product Listing Graphics]]></title>
+        <link>http://localhost/project/listing-image-design/</link>
+        <pubDate>Mon, 19 Oct 2026 06:05:50 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://localhost/?post_type=project&amp;p=108</guid>
+        <description></description>
+        <content:encoded><![CDATA[Feature-focused product listing graphics designed to maximize conversion rates, breaking down complex product USPs into scannable visual benefits.]]></content:encoded>
+        <excerpt:encoded><![CDATA[Feature-focused product listing graphics designed to maximize conversion rates, breaking down complex product USPs into ...]]></excerpt:encoded>
+        <wp:post_id>108</wp:post_id>
+        <wp:post_date><![CDATA[2026-10-19 06:05:50]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-10-19 06:05:50]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[listing-image-design]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>3</wp:menu_order>
+        <wp:post_type><![CDATA[project]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="project_category" nicename="ecommerce-amazon"><![CDATA[E-Commerce & Amazon]]></category>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_client_name]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Online Retailer]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_year]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2024]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_services]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Infographics, Listing Design, Visual Hierarchy, Photoshop Retouching]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_link]]></wp:meta_key>
+            <wp:meta_value><![CDATA[https://www.behance.net/gallery/249885693/listing-image-design]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_card_size]]></wp:meta_key>
+            <wp:meta_value><![CDATA[large]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[Amazon A+ Content / EBC Brand Story Design]]></title>
+        <link>http://localhost/project/amazon-ebc-aplus-content-design/</link>
+        <pubDate>Mon, 19 Oct 2026 06:05:50 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://localhost/?post_type=project&amp;p=109</guid>
+        <description></description>
+        <content:encoded><![CDATA[Enhanced Brand Content (EBC) modules combining brand storytelling with technical comparison charts and lifestyle imagery to increase buyer confidence.]]></content:encoded>
+        <excerpt:encoded><![CDATA[Enhanced Brand Content (EBC) modules combining brand storytelling with technical comparison charts and lifestyle imagery...]]></excerpt:encoded>
+        <wp:post_id>109</wp:post_id>
+        <wp:post_date><![CDATA[2026-10-19 06:05:50]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-10-19 06:05:50]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[amazon-ebc-aplus-content-design]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>4</wp:menu_order>
+        <wp:post_type><![CDATA[project]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="project_category" nicename="ecommerce-amazon"><![CDATA[E-Commerce & Amazon]]></category>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_client_name]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Global Marketplace Seller]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_year]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2024]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_services]]></wp:meta_key>
+            <wp:meta_value><![CDATA[A+ Content, EBC Design, Brand Story, Amazon Storefront]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_link]]></wp:meta_key>
+            <wp:meta_value><![CDATA[https://www.behance.net/gallery/249855299/amazon-ebc-aplus-content-design]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_card_size]]></wp:meta_key>
+            <wp:meta_value><![CDATA[regular]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[Creative Social Media Post Campaign]]></title>
+        <link>http://localhost/project/social-media-post-campaign/</link>
+        <pubDate>Mon, 19 Oct 2026 06:05:50 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://localhost/?post_type=project&amp;p=110</guid>
+        <description></description>
+        <content:encoded><![CDATA[Engaging social media visual campaign created to elevate online brand engagement across Instagram and Facebook with bold typographic treatments.]]></content:encoded>
+        <excerpt:encoded><![CDATA[Engaging social media visual campaign created to elevate online brand engagement across Instagram and Facebook with bold...]]></excerpt:encoded>
+        <wp:post_id>110</wp:post_id>
+        <wp:post_date><![CDATA[2026-10-19 06:05:50]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-10-19 06:05:50]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[social-media-post-campaign]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>5</wp:menu_order>
+        <wp:post_type><![CDATA[project]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="project_category" nicename="social-media-campaigns"><![CDATA[Social Media & Advertising]]></category>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_client_name]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Switch Studio]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_year]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2024]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_services]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Social Media, Digital Ad, Brand Strategy, Content Creation]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_link]]></wp:meta_key>
+            <wp:meta_value><![CDATA[https://www.behance.net/gallery/249850015/social-media-post-campaign]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_card_size]]></wp:meta_key>
+            <wp:meta_value><![CDATA[regular]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[Summer Holiday Campaign Design]]></title>
+        <link>http://localhost/project/summer-holiday-social-media-design/</link>
+        <pubDate>Mon, 19 Oct 2026 06:05:50 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://localhost/?post_type=project&amp;p=111</guid>
+        <description></description>
+        <content:encoded><![CDATA[Vibrant seasonal campaign art direction for summer holiday promotions, balancing warm color palettes with clean call-to-action typography.]]></content:encoded>
+        <excerpt:encoded><![CDATA[Vibrant seasonal campaign art direction for summer holiday promotions, balancing warm color palettes with clean call-to-...]]></excerpt:encoded>
+        <wp:post_id>111</wp:post_id>
+        <wp:post_date><![CDATA[2026-10-19 06:05:50]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-10-19 06:05:50]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[summer-holiday-social-media-design]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>6</wp:menu_order>
+        <wp:post_type><![CDATA[project]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="project_category" nicename="social-media-campaigns"><![CDATA[Social Media & Advertising]]></category>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_client_name]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Hospitality & Leisure Client]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_year]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2024]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_services]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Seasonal Campaign, Summer Promo, Visual Storytelling, Social Creatives]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_link]]></wp:meta_key>
+            <wp:meta_value><![CDATA[https://www.behance.net/gallery/249845743/summer-holiday-social-media-design]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_card_size]]></wp:meta_key>
+            <wp:meta_value><![CDATA[large]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[Corporate Exhibition Standee Design]]></title>
+        <link>http://localhost/project/exhibition-standee-design/</link>
+        <pubDate>Mon, 19 Oct 2026 06:05:50 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://localhost/?post_type=project&amp;p=112</guid>
+        <description></description>
+        <content:encoded><![CDATA[Vertical roll-up standee banner for international educational conventions and corporate trade shows, engineered for high readability from a distance.]]></content:encoded>
+        <excerpt:encoded><![CDATA[Vertical roll-up standee banner for international educational conventions and corporate trade shows, engineered for high...]]></excerpt:encoded>
+        <wp:post_id>112</wp:post_id>
+        <wp:post_date><![CDATA[2026-10-19 06:05:50]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-10-19 06:05:50]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[exhibition-standee-design]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>7</wp:menu_order>
+        <wp:post_type><![CDATA[project]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="project_category" nicename="advertising-outdoor"><![CDATA[Outdoor & Print]]></category>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_client_name]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Pak-Turk Maarif International]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_year]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2024]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_services]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Standee, Exhibition Display, Rollup Banner, Corporate Print]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_link]]></wp:meta_key>
+            <wp:meta_value><![CDATA[https://www.behance.net/gallery/249844841/exhibition-standee-design]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_card_size]]></wp:meta_key>
+            <wp:meta_value><![CDATA[regular]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[Labour Day Awareness Campaign Design]]></title>
+        <link>http://localhost/project/labour-day-campaign-design/</link>
+        <pubDate>Mon, 19 Oct 2026 06:05:50 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://localhost/?post_type=project&amp;p=113</guid>
+        <description></description>
+        <content:encoded><![CDATA[Purpose-driven social awareness graphic honoring international labor contributions, utilizing conceptual art and respectful typographic harmony.]]></content:encoded>
+        <excerpt:encoded><![CDATA[Purpose-driven social awareness graphic honoring international labor contributions, utilizing conceptual art and respect...]]></excerpt:encoded>
+        <wp:post_id>113</wp:post_id>
+        <wp:post_date><![CDATA[2026-10-19 06:05:50]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-10-19 06:05:50]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[labour-day-campaign-design]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>8</wp:menu_order>
+        <wp:post_type><![CDATA[project]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="project_category" nicename="brand-strategy-pr"><![CDATA[Brand Strategy & PR]]></category>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_client_name]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Public Relations Organization]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_year]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2024]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_services]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Public Relations, Awareness Campaign, Editorial Design, Poster]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_link]]></wp:meta_key>
+            <wp:meta_value><![CDATA[https://www.behance.net/gallery/249072641/labour-day-campaign-design]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_card_size]]></wp:meta_key>
+            <wp:meta_value><![CDATA[regular]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[Mother's Day Emotional Brand Campaign]]></title>
+        <link>http://localhost/project/mothers-day-social-media-campaign/</link>
+        <pubDate>Mon, 19 Oct 2026 06:05:50 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://localhost/?post_type=project&amp;p=114</guid>
+        <description></description>
+        <content:encoded><![CDATA[Heartfelt social media campaign blending emotive photography with elegant typography to foster brand affinity on Mother's Day.]]></content:encoded>
+        <excerpt:encoded><![CDATA[Heartfelt social media campaign blending emotive photography with elegant typography to foster brand affinity on Mother'...]]></excerpt:encoded>
+        <wp:post_id>114</wp:post_id>
+        <wp:post_date><![CDATA[2026-10-19 06:05:50]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-10-19 06:05:50]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[mothers-day-social-media-campaign]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>9</wp:menu_order>
+        <wp:post_type><![CDATA[project]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="project_category" nicename="social-media-campaigns"><![CDATA[Social Media & Advertising]]></category>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_client_name]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Lifestyle Brand]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_year]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2024]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_services]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Emotional Branding, Social Ad, Storytelling, Typography]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_link]]></wp:meta_key>
+            <wp:meta_value><![CDATA[https://www.behance.net/gallery/249072407/mothers-day-social-media-campaign]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_card_size]]></wp:meta_key>
+            <wp:meta_value><![CDATA[large]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[Social Impact & Awareness Creative]]></title>
+        <link>http://localhost/project/social-awareness-post-design/</link>
+        <pubDate>Mon, 19 Oct 2026 06:05:50 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://localhost/?post_type=project&amp;p=115</guid>
+        <description></description>
+        <content:encoded><![CDATA[High-impact public advocacy poster and digital creative designed to inform and mobilize community action on key social issues.]]></content:encoded>
+        <excerpt:encoded><![CDATA[High-impact public advocacy poster and digital creative designed to inform and mobilize community action on key social i...]]></excerpt:encoded>
+        <wp:post_id>115</wp:post_id>
+        <wp:post_date><![CDATA[2026-10-19 06:05:50]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-10-19 06:05:50]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[social-awareness-post-design]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>10</wp:menu_order>
+        <wp:post_type><![CDATA[project]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="project_category" nicename="brand-strategy-pr"><![CDATA[Brand Strategy & PR]]></category>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_client_name]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Community Advocacy Initiative]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_year]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2024]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_services]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Social Impact, Public Advocacy, Vector Illustration, Infographics]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_link]]></wp:meta_key>
+            <wp:meta_value><![CDATA[https://www.behance.net/gallery/249072171/social-awareness-post-design]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_card_size]]></wp:meta_key>
+            <wp:meta_value><![CDATA[regular]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title><![CDATA[Outdoor Highway Billboard Brand Campaign]]></title>
+        <link>http://localhost/project/outdoor-billboard-brand-campaign/</link>
+        <pubDate>Mon, 19 Oct 2026 06:05:50 +0000</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">http://localhost/?post_type=project&amp;p=116</guid>
+        <description></description>
+        <content:encoded><![CDATA[High-visibility outdoor billboard designed for highway hoardings, prioritizing split-second legibility, strong contrast, and memorable brand recognition.]]></content:encoded>
+        <excerpt:encoded><![CDATA[High-visibility outdoor billboard designed for highway hoardings, prioritizing split-second legibility, strong contrast,...]]></excerpt:encoded>
+        <wp:post_id>116</wp:post_id>
+        <wp:post_date><![CDATA[2026-10-19 06:05:50]]></wp:post_date>
+        <wp:post_date_gmt><![CDATA[2026-10-19 06:05:50]]></wp:post_date_gmt>
+        <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+        <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+        <wp:post_name><![CDATA[outdoor-billboard-brand-campaign]]></wp:post_name>
+        <wp:status><![CDATA[publish]]></wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>11</wp:menu_order>
+        <wp:post_type><![CDATA[project]]></wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="project_category" nicename="advertising-outdoor"><![CDATA[Outdoor & Print]]></category>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_client_name]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Commercial Real Estate / Brand]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_year]]></wp:meta_key>
+            <wp:meta_value><![CDATA[2024]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_services]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Billboard, Large Format, Outdoor Advertising, Highway Hoarding]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_project_link]]></wp:meta_key>
+            <wp:meta_value><![CDATA[https://www.behance.net/gallery/249072063/outdoor-billboard-brand-campaign]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_nukto_card_size]]></wp:meta_key>
+            <wp:meta_value><![CDATA[regular]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+</channel>
+</rss>

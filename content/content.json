@@ -1,0 +1,322 @@
+{
+  "agency": {
+    "name": "Nukto Point",
+    "legal_name": "Nukto Point (NUKTO \u2014 The Point of Creativity)",
+    "tagline": "The Point of Creativity",
+    "motto": "Think Big. Create Bold. Make Something Matter.",
+    "founder": "Nukto Point",
+    "qualifications": "M.Phil. in Art & Design | 10+ Years of Experience",
+    "bio": "I am a Communication Designer with an M.Phil. in Art & Design and over 10 years of experience in graphic design, photography, video editing, and public relations. My work blends creativity with strategic communication to build strong visual identities and meaningful brand experiences.\n\nHaving worked across educational institutions and corporate sectors, I bring a multidisciplinary approach to every project \u2014 from concept development to final execution. I am passionate about visual storytelling, detail-oriented design, and continuous learning. I strive to create impactful, purposeful designs that communicate clearly, inspire audiences, and add real value to brands and organizations.",
+    "short_about": "Nukto is a creative communication and digital design agency in Pakistan delivering brand identity systems, high-converting digital design, and visual storytelling that commands attention.",
+    "location": "Pakistan (Islamabad / Karachi / Hyderabad)",
+    "email": "nuktopoint@gmail.com",
+    "phone": "+92 324 3601950",
+    "social": {
+      "behance": "https://www.behance.net/nukto-poin",
+      "instagram": "https://www.instagram.com/nuktopoint",
+      "facebook": "https://www.facebook.com/p/NUKTO-61560572120480/"
+    },
+    "stats": {
+      "experience_years": "10+",
+      "appreciations": "66+",
+      "project_views": "440+",
+      "satisfaction_rate": "98%",
+      "custom_designs": "100%"
+    },
+    "past_clients_and_roles": [
+      {
+        "position": "PR & IT Officer",
+        "organization": "Pak-Turk Maarif International",
+        "location": "Hyderabad, Pakistan"
+      },
+      {
+        "position": "Graphic Designer",
+        "organization": "SZABIST UNIVERSITY",
+        "location": "Larkana, Pakistan"
+      },
+      {
+        "position": "Graphic Designer",
+        "organization": "Eastline Communication",
+        "location": "Hyderabad, Pakistan"
+      },
+      {
+        "position": "Graphic Designer",
+        "organization": "Switch Studio",
+        "location": "Karachi, Pakistan"
+      },
+      {
+        "position": "N.L Editor",
+        "organization": "KTN TV Entertainment",
+        "location": "Karachi, Pakistan"
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "branding-identity",
+      "title": "Branding & Visual Identity",
+      "subtitle": "Distinctive identities engineered to inspire and endure",
+      "items": [
+        "Brand Identity Systems",
+        "Logo & Mark Design",
+        "Typography & Color Strategy",
+        "Brand Guidelines & Manuals",
+        "Stationery & Collateral Design"
+      ]
+    },
+    {
+      "id": "ecommerce-amazon",
+      "title": "E-Commerce & Amazon Creative",
+      "subtitle": "High-converting digital storefront & listing assets",
+      "items": [
+        "Amazon Listing Image Sets",
+        "A+ Content & EBC Modules",
+        "Packaging & Dieline Design",
+        "Product Retouching & Rendering",
+        "Conversion-Driven Infographics"
+      ]
+    },
+    {
+      "id": "advertising-outdoor",
+      "title": "Advertising & Print Media",
+      "subtitle": "Large-format outdoor graphics with maximum recall",
+      "items": [
+        "Billboard & Hoarding Design",
+        "Exhibition Standees & Banners",
+        "Brochures & Corporate Catalogues",
+        "Print Production & Quality Assurance",
+        "Event Stage & Spatial Branding"
+      ]
+    },
+    {
+      "id": "digital-social",
+      "title": "Social Media & Campaigns",
+      "subtitle": "Creative visual storytelling that drives engagement",
+      "items": [
+        "Social Media Visual Campaigns",
+        "Promotional & Seasonal Ad Creatives",
+        "Public Relations & Awareness Graphics",
+        "Motion Graphics & Micro-Animations",
+        "Social Media Brand Kit"
+      ]
+    },
+    {
+      "id": "media-production",
+      "title": "Media & Video Production",
+      "subtitle": "Compelling video editing and commercial photography",
+      "items": [
+        "Commercial Video Editing",
+        "Documentaries & Case Study Videos",
+        "Professional Commercial Photography",
+        "Color Grading & Post-Production",
+        "Broadcast Graphics & Overlays"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "257277557",
+      "slug": "amazon-listing-images-scissor",
+      "title": "Amazon Listing Images | Scissor",
+      "category": "E-Commerce & Amazon",
+      "tags": [
+        "Amazon Listing",
+        "Product Photography",
+        "EBC / A+ Design",
+        "E-Commerce"
+      ],
+      "year": "2024",
+      "client": "Apex Cutlery / Amazon Brand",
+      "description": "High-converting Amazon product listing image set for professional scissors, featuring infographic callouts, dimensional breakdowns, ergonomic handle highlighting, and high-impact lifestyle imagery.",
+      "featured_image": "assets/images/projects/amazon-listing-images-scissor/cover.png",
+      "external_link": "https://www.behance.net/gallery/257277557/amazon-listing-images-scissor"
+    },
+    {
+      "id": "257058005",
+      "slug": "university-project-billboard-design",
+      "title": "University Campaign | Billboard Design",
+      "category": "Outdoor & Print",
+      "tags": [
+        "Billboard",
+        "Academic Branding",
+        "Outdoor Advertising",
+        "Print Media"
+      ],
+      "year": "2024",
+      "client": "SZABIST University",
+      "description": "Large-format outdoor billboard campaign design crafted to drive student admissions, focusing on institutional prestige, modern typography, and vibrant visual hierarchy.",
+      "featured_image": "assets/images/projects/university-project-billboard-design/cover.png",
+      "external_link": "https://www.behance.net/gallery/257058005/university-project-billboard-design"
+    },
+    {
+      "id": "249888041",
+      "slug": "packaging-and-listing-design-amazon",
+      "title": "Packaging & Amazon Product Listing Design",
+      "category": "Packaging & Branding",
+      "tags": [
+        "Packaging Design",
+        "Box Dieline",
+        "Amazon Listing",
+        "Brand Identity"
+      ],
+      "year": "2024",
+      "client": "D2C Retail Brand",
+      "description": "End-to-end product packaging dieline design paired with Amazon listing creative assets, creating a cohesive unboxing experience and strong digital shelf presence.",
+      "featured_image": "assets/images/projects/packaging-and-listing-design-amazon/cover.png",
+      "external_link": "https://www.behance.net/gallery/249888041/packaging-and-listing-design-amazon"
+    },
+    {
+      "id": "249885693",
+      "slug": "listing-image-design",
+      "title": "Digital Product Listing Graphics",
+      "category": "E-Commerce & Amazon",
+      "tags": [
+        "Infographics",
+        "Listing Design",
+        "Visual Hierarchy",
+        "Photoshop Retouching"
+      ],
+      "year": "2024",
+      "client": "Online Retailer",
+      "description": "Feature-focused product listing graphics designed to maximize conversion rates, breaking down complex product USPs into scannable visual benefits.",
+      "featured_image": "assets/images/projects/listing-image-design/cover.png",
+      "external_link": "https://www.behance.net/gallery/249885693/listing-image-design"
+    },
+    {
+      "id": "249855299",
+      "slug": "amazon-ebc-aplus-content-design",
+      "title": "Amazon A+ Content / EBC Brand Story Design",
+      "category": "E-Commerce & Amazon",
+      "tags": [
+        "A+ Content",
+        "EBC Design",
+        "Brand Story",
+        "Amazon Storefront"
+      ],
+      "year": "2024",
+      "client": "Global Marketplace Seller",
+      "description": "Enhanced Brand Content (EBC) modules combining brand storytelling with technical comparison charts and lifestyle imagery to increase buyer confidence.",
+      "featured_image": "assets/images/projects/amazon-ebc-aplus-content-design/cover.png",
+      "external_link": "https://www.behance.net/gallery/249855299/amazon-ebc-aplus-content-design"
+    },
+    {
+      "id": "249850015",
+      "slug": "social-media-post-campaign",
+      "title": "Creative Social Media Post Campaign",
+      "category": "Social Media & Advertising",
+      "tags": [
+        "Social Media",
+        "Digital Ad",
+        "Brand Strategy",
+        "Content Creation"
+      ],
+      "year": "2024",
+      "client": "Switch Studio",
+      "description": "Engaging social media visual campaign created to elevate online brand engagement across Instagram and Facebook with bold typographic treatments.",
+      "featured_image": "assets/images/projects/social-media-post-campaign/cover.png",
+      "external_link": "https://www.behance.net/gallery/249850015/social-media-post-campaign"
+    },
+    {
+      "id": "249845743",
+      "slug": "summer-holiday-social-media-design",
+      "title": "Summer Holiday Campaign Design",
+      "category": "Social Media & Advertising",
+      "tags": [
+        "Seasonal Campaign",
+        "Summer Promo",
+        "Visual Storytelling",
+        "Social Creatives"
+      ],
+      "year": "2024",
+      "client": "Hospitality & Leisure Client",
+      "description": "Vibrant seasonal campaign art direction for summer holiday promotions, balancing warm color palettes with clean call-to-action typography.",
+      "featured_image": "assets/images/projects/summer-holiday-social-media-design/cover.png",
+      "external_link": "https://www.behance.net/gallery/249845743/summer-holiday-social-media-design"
+    },
+    {
+      "id": "249844841",
+      "slug": "exhibition-standee-design",
+      "title": "Corporate Exhibition Standee Design",
+      "category": "Outdoor & Print",
+      "tags": [
+        "Standee",
+        "Exhibition Display",
+        "Rollup Banner",
+        "Corporate Print"
+      ],
+      "year": "2024",
+      "client": "Pak-Turk Maarif International",
+      "description": "Vertical roll-up standee banner for international educational conventions and corporate trade shows, engineered for high readability from a distance.",
+      "featured_image": "assets/images/projects/exhibition-standee-design/cover.png",
+      "external_link": "https://www.behance.net/gallery/249844841/exhibition-standee-design"
+    },
+    {
+      "id": "249072641",
+      "slug": "labour-day-campaign-design",
+      "title": "Labour Day Awareness Campaign Design",
+      "category": "Brand Strategy & PR",
+      "tags": [
+        "Public Relations",
+        "Awareness Campaign",
+        "Editorial Design",
+        "Poster"
+      ],
+      "year": "2024",
+      "client": "Public Relations Organization",
+      "description": "Purpose-driven social awareness graphic honoring international labor contributions, utilizing conceptual art and respectful typographic harmony.",
+      "featured_image": "assets/images/projects/labour-day-campaign-design/cover.png",
+      "external_link": "https://www.behance.net/gallery/249072641/labour-day-campaign-design"
+    },
+    {
+      "id": "249072407",
+      "slug": "mothers-day-social-media-campaign",
+      "title": "Mother's Day Emotional Brand Campaign",
+      "category": "Social Media & Advertising",
+      "tags": [
+        "Emotional Branding",
+        "Social Ad",
+        "Storytelling",
+        "Typography"
+      ],
+      "year": "2024",
+      "client": "Lifestyle Brand",
+      "description": "Heartfelt social media campaign blending emotive photography with elegant typography to foster brand affinity on Mother's Day.",
+      "featured_image": "assets/images/projects/mothers-day-social-media-campaign/cover.png",
+      "external_link": "https://www.behance.net/gallery/249072407/mothers-day-social-media-campaign"
+    },
+    {
+      "id": "249072171",
+      "slug": "social-awareness-post-design",
+      "title": "Social Impact & Awareness Creative",
+      "category": "Brand Strategy & PR",
+      "tags": [
+        "Social Impact",
+        "Public Advocacy",
+        "Vector Illustration",
+        "Infographics"
+      ],
+      "year": "2024",
+      "client": "Community Advocacy Initiative",
+      "description": "High-impact public advocacy poster and digital creative designed to inform and mobilize community action on key social issues.",
+      "featured_image": "assets/images/projects/social-awareness-post-design/cover.png",
+      "external_link": "https://www.behance.net/gallery/249072171/social-awareness-post-design"
+    },
+    {
+      "id": "249072063",
+      "slug": "outdoor-billboard-brand-campaign",
+      "title": "Outdoor Highway Billboard Brand Campaign",
+      "category": "Outdoor & Print",
+      "tags": [
+        "Billboard",
+        "Large Format",
+        "Outdoor Advertising",
+        "Highway Hoarding"
+      ],
+      "year": "2024",
+      "client": "Commercial Real Estate / Brand",
+      "description": "High-visibility outdoor billboard designed for highway hoardings, prioritizing split-second legibility, strong contrast, and memorable brand recognition.",
+      "featured_image": "assets/images/projects/outdoor-billboard-brand-campaign/cover.png",
+      "external_link": "https://www.behance.net/gallery/249072063/outdoor-billboard-brand-campaign"
+    }
+  ]
+}

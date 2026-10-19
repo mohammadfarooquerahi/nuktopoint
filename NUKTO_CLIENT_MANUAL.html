@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUKTO POINT - Website Operations & Client Handover Manual</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --surface: #141414;
+            --border: #222222;
+            --accent: #ff00a3;
+            --accent-glow: rgba(255, 0, 163, 0.25);
+            --text: #e0e0e0;
+            --text-heading: #ffffff;
+            --text-muted: #888888;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+        .manual-container {
+            max-width: 960px;
+            margin: 0 auto;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 60px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+        }
+        h1 {
+            color: var(--text-heading);
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin-bottom: 24px;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+        h2 {
+            color: var(--text-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 48px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        h3 {
+            color: var(--accent);
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-top: 28px;
+            margin-bottom: 12px;
+        }
+        p { margin-bottom: 16px; }
+        ul, ol { margin-left: 24px; margin-bottom: 20px; }
+        li { margin-bottom: 8px; }
+        code {
+            background: #202020;
+            color: #ff80d5;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            font-family: Consolas, monospace;
+        }
+        pre {
+            background: #080808;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 16px;
+            overflow-x: auto;
+            margin-bottom: 20px;
+        }
+        pre code {
+            background: none;
+            padding: 0;
+            color: #00ffcc;
+        }
+        blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 12px 20px;
+            background: rgba(255, 0, 163, 0.05);
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 40px 0;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        @media print {
+            body { background: #fff; color: #000; }
+            .manual-container { background: #fff; border: none; box-shadow: none; padding: 0; }
+            h1, h2 { color: #000; }
+            h3 { color: #c0007a; }
+            pre { background: #f4f4f4; border-color: #ddd; }
+            code { color: #000; }
+        }
+    </style>
+</head>
+<body>
+    <div class="manual-container">
+        <h1>📖 NUKTO POINT &mdash; Complete Website Operations & Client Handover Manual</h1>
+
+<p>Welcome to your official <strong>Nukto Point</strong> (<code>nuktopoint.com</code>) operations and management guide. This custom WordPress theme has been crafted from scratch to mirror the award-winning interactive aesthetics of <strong>Buzz Interactive</strong> while showcasing the authentic creative portfolio, academic credentials, and communication design work of <strong>Nukto Point</strong>.</p>
+
+<p>This guide provides step-by-step instructions for editing website content, managing portfolio projects, monitoring contact inquiries, and customizing visual styles &mdash; <strong>all without touching any code</strong>.</p>
+
+<hr/>
+
+<h2>📑 Table of Contents</h2>
+
+<ol>
+<li>[Logging In to Your WordPress Dashboard](#1-logging-in-to-your-wordpress-dashboard)</li>
+<li>[Visual Homepage Customization (Live Customizer)](#2-visual-homepage-customization-live-customizer)</li>
+<li>[Hero Section & Live Ticker](#a-hero-section--live-ticker)</li>
+<li>[Showreel Video & Visual Reel](#b-showreel-video--visual-reel)</li>
+<li>[Services Showcase](#c-services-showcase)</li>
+<li>[About Studio & Leadership Bio](#d-about-studio--leadership-bio)</li>
+<li>[Impact Statistics & Key Metrics](#e-impact-statistics--key-metrics)</li>
+<li>[Contact Information & Social Links](#f-contact-information--social-links)</li>
+<li>[Managing the Portfolio (Projects CPT)](#3-managing-the-portfolio-projects-cpt)</li>
+<li>[Adding a New Project](#adding-a-new-project)</li>
+<li>[Setting Featured Images & Cover Art](#setting-featured-images--cover-art)</li>
+<li>[Project Categories & Taxonomy Filters](#project-categories--taxonomy-filters)</li>
+<li>[Project Meta Fields (Client, Year, Disciplines, Live Link, Grid Size)](#project-meta-fields)</li>
+<li>[Interactive Features & Visual Engines](#4-interactive-features--visual-engines)</li>
+<li>[Custom Dual-Ring Magnetic Cursor](#custom-dual-ring-magnetic-cursor)</li>
+<li>[Lenis Smooth Inertial Scrolling](#lenis-smooth-inertial-scrolling)</li>
+<li>[Matter.js 2D Physics Footer Tag Cloud](#matterjs-2d-physics-footer-tag-cloud)</li>
+<li>[Web Audio Synthesizer Toggle](#web-audio-synthesizer-toggle)</li>
+<li>[Inquiries & Contact Form Submissions](#5-inquiries--contact-form-submissions)</li>
+<li>[How the AJAX Contact Form Works](#how-the-ajax-contact-form-works)</li>
+<li>[Changing Recipient Email Address](#changing-recipient-email-address)</li>
+<li>[Form Nonce Security & Anti-Spam Protection](#form-nonce-security--anti-spam-protection)</li>
+<li>[Navigation Menus & Header/Footer Links](#6-navigation-menus--headerfooter-links)</li>
+<li>[SEO, Social Sharing & Media Guidelines](#7-seo-social-sharing--media-guidelines)</li>
+<li>[Client Action Items & Placeholder Replacements](#8-client-action-items--placeholder-replacements)</li>
+<li>[Routine Maintenance, Backups & Security](#9-routine-maintenance-backups--security)</li>
+</ul>
+
+<hr/>
+
+<h2>1. Logging In to Your WordPress Dashboard</h2>
+
+<ol>
+<li>Open your web browser (Chrome, Edge, Safari, Firefox).</li>
+<li>Navigate to your website admin URL:</li>
+</ul>
+   <pre><code>   https://yourdomain.com/wp-admin
+<p></code></pre></p>
+<ol>
+<li>Enter your <strong>Username / Email Address</strong> and <strong>Password</strong>.</li>
+<li>Click <strong>Log In</strong>.</li>
+</ul>
+
+<blockquote>💡 <strong>Tip:</strong> Bookmark the <code>/wp-admin</code> URL in your browser bookmark bar for instant access.</blockquote>
+
+<hr/>
+
+<h2>2. Visual Homepage Customization (Live Customizer)</h2>
+
+<p>All major sections on the homepage are fully editable with a real-time live preview.</p>
+
+<p><strong>How to open the Live Customizer:</strong></p>
+<ol>
+<li>In the left admin sidebar, click <strong>Appearance > Customize</strong>.</li>
+<li>Click on <strong>Nukto Point Settings</strong>.</li>
+<li>You will see dedicated panels corresponding to each section of your homepage.</li>
+<li>When you finish editing, click the blue <strong>Publish</strong> button at the top left to save changes instantly.</li>
+</ul>
+
+<hr/>
+
+<h3>A. Hero Section & Live Ticker</h3>
+<p><em>Controls the top ticker badge, massive typography headline, and hero lead text.</em></p>
+<ul>
+<li><strong>Ticker Status Text:</strong> (Default: <code>AVAILABLE FOR SELECT COMMISSIONS • Q1/Q2</code>)</li>
+<li><strong>Main Headline Line 1:</strong> (Default: <code>COMMUNICATION DESIGN</code>)</li>
+<li><strong>Main Headline Line 2:</strong> (Default: <code>THAT COMMANDS ATTENTION.</code>)</li>
+<li><strong>Hero Lead Description:</strong> A concise 2-sentence mission statement summarizing your studio's unique positioning.</li>
+</ul>
+
+<hr/>
+
+<h3>B. Showreel Video & Visual Reel</h3>
+<p><em>Controls the showreel preview card that expands on scroll and launches the high-res video modal.</em></p>
+<ul>
+<li><strong>Showreel Title / Badge:</strong> (Default: <code>NUKTO POINT REEL</code>)</li>
+<li><strong>Showreel Video MP4 URL:</strong> Enter a direct link to an MP4 video file uploaded to your Media Library or external CDN.</li>
+<li><strong>Showreel Cover Image:</strong> Select a high-resolution background poster for the video card.</li>
+</ul>
+
+<hr/>
+
+<h3>C. Services Showcase</h3>
+<p><em>Controls the 4 interactive service cards.</em></p>
+<ul>
+<li><strong>Service 1:</strong> Title, Subtitle, and Deliverable Items (e.g. <code>Branding & Visual Identity</code>).</li>
+<li><strong>Service 2:</strong> E-Commerce & Amazon Creative (A+ Content, packaging dielines, listing sets).</li>
+<li><strong>Service 3:</strong> Advertising & Outdoor Print (Billboards, exhibition standees, brochures).</li>
+<li><strong>Service 4:</strong> Social Media & Strategic Campaigns (Ad creatives, awareness visuals).</li>
+</ul>
+
+<hr/>
+
+<h3>D. About Studio & Leadership Bio</h3>
+<p><em>Showcases your M.Phil degree, 10+ years experience, and institutional roles (SZABIST, Pak-Turk Maarif, Switch Studio).</em></p>
+<ul>
+<li><strong>Section Badge:</strong> (Default: <code>THE PHILOSOPHY</code>)</li>
+<li><strong>Studio Narrative:</strong> Rich biographical statement explaining your creative ethos.</li>
+<li><strong>Client Avatar:</strong> Profile photograph of the lead designer (<code>assets/images/branding/nukto-avatar.jpg</code>).</li>
+</ul>
+
+<hr/>
+
+<h3>E. Impact Statistics & Key Metrics</h3>
+<p><em>Four counter metrics highlighting your studio achievements.</em></p>
+<ul>
+<li><strong>Stat 1:</strong> <code>10+</code> &mdash; Years of Professional Design Experience</li>
+<li><strong>Stat 2:</strong> <code>66+</code> &mdash; Behance Appreciations</li>
+<li><strong>Stat 3:</strong> <code>440+</code> &mdash; Project Views</li>
+<li><strong>Stat 4:</strong> <code>98%</code> &mdash; Client Satisfaction Rate</li>
+</ul>
+
+<hr/>
+
+<h3>F. Contact Information & Social Links</h3>
+<p><em>Controls the contact footer, direct links, and social media handles.</em></p>
+<ul>
+<li><strong>Contact Email:</strong> (Default: <code>nuktopoint@gmail.com</code>)</li>
+<li><strong>Contact Phone / WhatsApp:</strong> (Default: <code>+92 324 3601950</code>)</li>
+<li><strong>Studio Locations:</strong> Pakistan (Islamabad / Karachi / Hyderabad)</li>
+<li><strong>Behance Profile:</strong> <code>https://www.behance.net/nukto-poin</code></li>
+<li><strong>Instagram:</strong> <code>https://www.instagram.com/nuktopoint</code></li>
+<li><strong>Facebook:</strong> <code>https://www.facebook.com/p/NUKTO-61560572120480/</code></li>
+</ul>
+
+<hr/>
+
+<h2>3. Managing the Portfolio (Projects CPT)</h2>
+
+<p>The theme features a dedicated <strong>Projects</strong> Custom Post Type engineered specifically for design case studies.</p>
+
+<h3>Adding a New Project</h3>
+<ol>
+<li>In your WP Admin sidebar, navigate to <strong>Projects > Add New Project</strong>.</li>
+<li><strong>Title:</strong> Enter the project name (e.g., <code>Amazon A+ Content / EBC Brand Story Design</code>).</li>
+<li><strong>Main Content Editor:</strong> Write the case study narrative, project background, challenge, and solution.</li>
+<li><strong>Excerpt:</strong> Add a short 1-2 sentence preview description for card listings.</li>
+</ul>
+
+<h3>Setting Featured Images & Cover Art</h3>
+<ol>
+<li>On the right sidebar, look for the <strong>Featured Image</strong> panel.</li>
+<li>Click <strong>Set featured image</strong>.</li>
+<li>Upload a high-resolution image (<code>1600x1200px</code> or <code>1920x1080px</code>, JPG/PNG/WebP).</li>
+<li>Always provide descriptive <strong>Alt Text</strong> for SEO and accessibility.</li>
+</ul>
+
+<h3>Project Categories & Taxonomy Filters</h3>
+<ol>
+<li>On the right sidebar, check one or more categories under <strong>Project Categories</strong>:</li>
+<li><code>Branding & Visual Identity</code></li>
+<li><code>E-Commerce & Amazon Creative</code></li>
+<li><code>Advertising & Print Media</code></li>
+<li><code>Social Media & Campaigns</code></li>
+<li><code>Brand Strategy & PR</code></li>
+<li>These categories automatically generate interactive filter pills on the Portfolio page (<code>/work/</code>).</li>
+</ul>
+
+<h3>Project Meta Fields</h3>
+<p>Below the text editor, locate the <strong>Project Details & Metadata</strong> box:</p>
+<ul>
+<li><strong>Client Name:</strong> (e.g., <code>SZABIST University</code>, <code>Apex Cutlery</code>, <code>D2C Brand</code>)</li>
+<li><strong>Project Year:</strong> (e.g., <code>2024</code>)</li>
+<li><strong>Services / Disciplines:</strong> (e.g., <code>Billboard, Large Format, Typography</code>)</li>
+<li><strong>External Behance / Live URL:</strong> (Link to external gallery or live site)</li>
+<li><strong>Card Grid Size:</strong></li>
+<li><code>Regular (1 Column)</code> &mdash; Standard card size.</li>
+<li><code>Large (Spans 2 Columns)</code> &mdash; Highlighted hero card in masonry layout.</li>
+</ul>
+
+<hr/>
+
+<h2>4. Interactive Features & Visual Engines</h2>
+
+<h3>Custom Dual-Ring Magnetic Cursor</h3>
+<ul>
+<li>The mouse pointer is accompanied by a dual-ring reactive cursor.</li>
+<li>Automatically expands and snaps magnetically when hovering over buttons, links, project cards, and inputs.</li>
+<li>Automatically disabled on touchscreens, mobile devices, and for visitors who have enabled <code>prefers-reduced-motion</code> in their OS settings.</li>
+</ul>
+
+<h3>Lenis Smooth Inertial Scrolling</h3>
+<ul>
+<li>Uses hardware-accelerated smooth scrolling for an ultra-fluid editorial browsing experience.</li>
+<li>Synchronized natively with <strong>GSAP ScrollTrigger</strong> for scroll-driven animations.</li>
+</ul>
+
+<h3>Matter.js 2D Physics Footer Tag Cloud</h3>
+<ul>
+<li>In the footer, brand skill tags ("Brand Identity", "Amazon EBC", "SZABIST Visiting Faculty", "Nukto Point") are physical 2D bodies with gravity and bounce.</li>
+<li>Visitors can drag, fling, and collide the tags with their cursor or finger!</li>
+</ul>
+
+<h3>Web Audio Synthesizer Toggle</h3>
+<ul>
+<li>Clicking the audio equalizer icon in the header toggles a subtle, high-tech ambient audio drone generated in real-time via the browser's Web Audio API (no heavy MP3 audio files needed).</li>
+</ul>
+
+<hr/>
+
+<h2>5. Inquiries & Contact Form Submissions</h2>
+
+<h3>How the AJAX Contact Form Works</h3>
+<ul>
+<li>The contact form at the bottom of the homepage submits inquiries via asynchronous AJAX without reloading the page.</li>
+<li>Fields: <strong>Full Name</strong>, <strong>Email Address</strong>, <strong>Service Required</strong>, and <strong>Project Brief / Message</strong>.</li>
+<li>When submitted, the visitor sees an animated confirmation alert, and the form sends a formatted HTML email to your studio inbox.</li>
+</ul>
+
+<h3>Changing Recipient Email Address</h3>
+<ul>
+<li>By default, form submissions are sent to the email configured in <strong>Appearance > Customize > Nukto Point Settings > Contact Info</strong>, or the WordPress administration email address.</li>
+</ul>
+
+<h3>Form Nonce Security & Anti-Spam Protection</h3>
+<ul>
+<li>Every form submission includes a cryptographic WordPress Nonce token (<code>_nukto_contact_nonce</code>) to block automated spam bots and cross-site request forgery attacks.</li>
+</ul>
+
+<hr/>
+
+<h2>6. Navigation Menus & Header/Footer Links</h2>
+
+<p><strong>To edit your navigation links:</strong></p>
+<ol>
+<li>Navigate to <strong>Appearance > Menus</strong>.</li>
+<li>Select <strong>Primary Navigation</strong> from the dropdown.</li>
+<li>You can reorder, add, or rename links:</li>
+<li><strong>Home:</strong> <code>/#</code></li>
+<li><strong>Work:</strong> <code>/#work</code> (or <code>/work/</code> for full directory)</li>
+<li><strong>Services:</strong> <code>/#services</code></li>
+<li><strong>About:</strong> <code>/#about</code></li>
+<li><strong>Contact:</strong> <code>/#contact</code></li>
+<li>Check the <strong>Primary Menu</strong> checkbox under Menu Settings and click <strong>Save Menu</strong>.</li>
+</ul>
+
+<hr/>
+
+<h2>7. SEO, Social Sharing & Media Guidelines</h2>
+
+<h3>Image Guidelines</h3>
+<ul>
+<li><strong>Project Covers:</strong> Ideal size <code>1600x1200px</code> or <code>1920x1080px</code>, under 400KB per image.</li>
+<li><strong>Format:</strong> WebP is recommended for maximum speed; PNG is best for graphics with crisp line art.</li>
+<li><strong>Alt Text:</strong> Always describe the image contents for search engine crawlers.</li>
+</ul>
+
+<h3>Social Meta Sharing</h3>
+<ul>
+<li>The theme outputs semantic Open Graph meta tags (<code>og:title</code>, <code>og:description</code>, <code>og:image</code>, <code>og:url</code>) on single project case studies, ensuring rich link preview cards when shared on WhatsApp, LinkedIn, X/Twitter, or Facebook.</li>
+</ul>
+
+<hr/>
+
+<h2>8. Client Action Items & Placeholder Replacements</h2>
+
+<p>Please review the following items documented in <code>/content/MISSING.md</code> to finalize your production rollout:</p>
+
+<ol>
+<li><strong>Showreel Video MP4:</strong> Upload your studio showreel MP4 video to your WordPress Media Library and enter its link in <strong>Appearance > Customize > Showreel Media</strong>.</li>
+<li><strong>Physical Studio Address:</strong> If you would like to display a specific street address in the footer rather than city names (<code>Islamabad / Karachi / Hyderabad</code>), update it in the Customizer.</li>
+<li><strong>Video Client Testimonials:</strong> If you have video endorsements or client quotes, update the testimonials in <code>template-parts/testimonials.php</code>.</li>
+</ul>
+
+<hr/>
+
+<h2>9. Routine Maintenance, Backups & Security</h2>
+
+<ul>
+<li><strong>WordPress Core Updates:</strong> Keep WordPress updated to the latest version.</li>
+<li><strong>Backups:</strong> Use a reliable backup solution (e.g. UpdraftPlus or your hosting provider's automated daily backups).</li>
+<li><strong>Security:</strong> Use strong passwords, 2-Factor Authentication (2FA), and ensure SSL (HTTPS) is active on your domain.</li>
+</ul>
+
+<hr/>
+
+<p>© 2026 Nukto Point. Engineered for creative distinction.</p>
+
+    </div>
+</body>
+</html>
