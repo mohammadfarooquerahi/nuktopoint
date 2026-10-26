@@ -24,6 +24,8 @@ $email        = get_theme_mod( 'nukto_contact_email', 'nuktopoint@gmail.com' );
 $behance_url   = get_theme_mod( 'nukto_social_behance', 'https://www.behance.net/nukto-poin' );
 $instagram_url = get_theme_mod( 'nukto_social_instagram', 'https://www.instagram.com/nuktopoint' );
 $facebook_url  = get_theme_mod( 'nukto_social_facebook', 'https://www.facebook.com/p/NUKTO-61560572120480/' );
+$watermark = get_theme_mod( 'nukto_footer_watermark', 'NUKTO POINT' );
+$tagline   = get_theme_mod( 'nukto_footer_tagline', 'The Point of Creativity. All Rights Reserved.' );
 ?>
 </main><!-- #primary -->
 
@@ -89,13 +91,13 @@ $facebook_url  = get_theme_mod( 'nukto_social_facebook', 'https://www.facebook.c
 
 		<!-- Giant Watermark Logo -->
 		<div class="nk-footer-watermark" aria-hidden="true">
-			NUKTO POINT
+			<?php echo esc_html( $watermark ); ?>
 		</div>
 
 		<!-- Bottom Bar -->
 		<div class="nk-footer-bottom">
 			<div class="nk-footer-bottom-left">
-				<p>&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?>. <?php esc_html_e( 'The Point of Creativity. All Rights Reserved.', 'nukto' ); ?></p>
+				<p>&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?>. <?php echo esc_html( $tagline ); ?></p>
 				<a href="https://www.linkedin.com/in/mohammadfarooque/" target="_blank" rel="noopener noreferrer" class="nk-dev-credit">Developed by Mohammad Farooque</a>
 			</div>
 			<div class="nk-footer-links">

@@ -19,12 +19,14 @@ $projects_query = new WP_Query(
 		'order'          => 'DESC',
 	)
 );
+$work_tag      = get_theme_mod( 'nukto_work_tag', 'Selected Work' );
+$work_headline = get_theme_mod( 'nukto_work_headline', 'Portfolio of Impactful Brands & Visual Systems' );
 ?>
 <section class="nk-section nk-work-section" id="work">
 	<div class="nk-container">
 		<div class="nk-section-title-wrap">
-			<span class="nk-section-tag"><?php esc_html_e( 'Selected Work', 'nukto' ); ?></span>
-			<h2 class="nk-section-h2"><?php esc_html_e( 'Portfolio of Impactful Brands & Visual Systems', 'nukto' ); ?></h2>
+			<span class="nk-section-tag"><?php echo esc_html( $work_tag ); ?></span>
+			<h2 class="nk-section-h2"><?php echo esc_html( $work_headline ); ?></h2>
 		</div>
 
 		<div class="nk-work-grid">

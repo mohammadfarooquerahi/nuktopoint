@@ -9,32 +9,52 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-$testimonials = array(
-	array(
-		'quote'  => __( '“Nukto Point delivered extraordinary visual assets for our university admissions campaign. Their attention to institutional prestige, typography, and large-format outdoor legibility exceeded our highest benchmarks.”', 'nukto' ),
+$section_tag      = get_theme_mod( 'nukto_testi_tag', 'Client Endorsements' );
+$section_headline = get_theme_mod( 'nukto_testi_headline', 'Trusted by Institutions & Global Sellers' );
+
+$default_testimonials = array(
+	1 => array(
+		'quote'  => '“Nukto Point delivered extraordinary visual assets for our university admissions campaign. Their attention to institutional prestige, typography, and large-format outdoor legibility exceeded our highest benchmarks.”',
 		'author' => 'Director of Communications',
 		'role'   => 'SZABIST University',
 		'avatar' => 'SZ',
 	),
-	array(
-		'quote'  => __( '“The Amazon listing graphics and packaging dielines Nukto Point engineered took our product straight into the top 5% bestseller category. Pure conversion-driven craftsmanship.”', 'nukto' ),
+	2 => array(
+		'quote'  => '“The Amazon listing graphics and packaging dielines Nukto Point engineered took our product straight into the top 5% bestseller category. Pure conversion-driven craftsmanship.”',
 		'author' => 'Brand Operations Lead',
 		'role'   => 'Apex Cutlery & Retail',
 		'avatar' => 'AC',
 	),
-	array(
-		'quote'  => __( '“Working with Nukto Point on our international exhibition standees and public relations collateral was effortless. They blend deep creative theory with sharp execution timelines.”', 'nukto' ),
+	3 => array(
+		'quote'  => '“Working with Nukto Point on our international exhibition standees and public relations collateral was effortless. They blend deep creative theory with sharp execution timelines.”',
 		'author' => 'Head of Corporate Affairs',
 		'role'   => 'Pak-Turk Maarif International',
 		'avatar' => 'PT',
 	),
 );
+
+$testimonials = array();
+foreach ( $default_testimonials as $i => $defaults ) {
+	$quote  = get_theme_mod( "nukto_t{$i}_quote", $defaults['quote'] );
+	$author = get_theme_mod( "nukto_t{$i}_author", $defaults['author'] );
+	$role   = get_theme_mod( "nukto_t{$i}_role", $defaults['role'] );
+	$avatar = get_theme_mod( "nukto_t{$i}_avatar", $defaults['avatar'] );
+
+	if ( ! empty( $quote ) ) {
+		$testimonials[] = array(
+			'quote'  => $quote,
+			'author' => $author,
+			'role'   => $role,
+			'avatar' => $avatar ? $avatar : 'NK',
+		);
+	}
+}
 ?>
 <section class="nk-section nk-testimonials-section" id="testimonials">
 	<div class="nk-container">
 		<div class="nk-section-title-wrap" style="text-align: center;">
-			<span class="nk-section-tag"><?php esc_html_e( 'Client Endorsements', 'nukto' ); ?></span>
-			<h2 class="nk-section-h2"><?php esc_html_e( 'Trusted by Institutions & Global Sellers', 'nukto' ); ?></h2>
+			<span class="nk-section-tag"><?php echo esc_html( $section_tag ); ?></span>
+			<h2 class="nk-section-h2"><?php echo esc_html( $section_headline ); ?></h2>
 		</div>
 
 		<div class="nk-testimonials-slider" id="nkTestimonialsSlider">

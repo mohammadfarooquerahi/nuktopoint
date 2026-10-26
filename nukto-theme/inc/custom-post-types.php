@@ -216,3 +216,88 @@ function nukto_save_project_meta( $post_id ) {
 	}
 }
 add_action( 'save_post_project', 'nukto_save_project_meta' );
+
+/**
+ * Add Page Hero & Header Options Meta Box for Pages
+ */
+function nukto_add_page_meta_boxes() {
+	add_meta_box(
+		'nukto_page_hero_options',
+		__( 'Page Hero & Banner Options', 'nukto' ),
+		'nukto_render_page_meta_box',
+		'page',
+		'normal',
+		'high'
+	);
+}
+add_action( 'add_meta_boxes', 'nukto_add_page_meta_boxes' );
+
+/**
+ * Render Page Meta Box Form Fields
+ *
+ * @param WP_Post $post Current post object.
+ */
+function nukto_render_page_meta_box( $post ) {
+	wp_nonce_field( 'nukto_save_page_meta', 'nukto_page_meta_nonce' );
+
+	$hero_tag      = get_post_meta( $post->ID, '_nukto_page_hero_tag', true );
+	$hero_headline = get_post_meta( $post->ID, '_nukto_page_hero_headline', true );
+	$hero_lead     = get_post_meta( $post->ID, '_nukto_page_hero_lead', true );
+	?>
+	<table class="form-table">
+		<tr>
+			<th><label for="nukto_page_hero_tag"><?php esc_html_e( 'Hero Eyebrow Tag', 'nukto' ); ?></label></th>
+			<td>
+				<input type="text" id="nukto_page_hero_tag" name="nukto_page_hero_tag" value="<?php echo esc_attr( $hero_tag ); ?>" class="regular-text" placeholder="<?php esc_attr_e( 'e.g. Selected Work, Capabilities, Studio & Ethos', 'nukto' ); ?>" />
+				<p class="description"><?php esc_html_e( 'Small pill badge displayed above the main heading.', 'nukto' ); ?></p>
+			</td>
+		</tr>
+		<tr>
+			<th><label for="nukto_page_hero_headline"><?php esc_html_e( 'Hero Custom Headline', 'nukto' ); ?></label></th>
+			<td>
+				<input type="text" id="nukto_page_hero_headline" name="nukto_page_hero_headline" value="<?php echo esc_attr( $hero_headline ); ?>" class="large-text" placeholder="<?php esc_attr_e( 'Leave empty to use the default headline or page title', 'nukto' ); ?>" />
+				<p class="description"><?php esc_html_e( 'Override the primary H1 headline for this page banner.', 'nukto' ); ?></p>
+			</td>
+		</tr>
+		<tr>
+			<th><label for="nukto_page_hero_lead"><?php esc_html_e( 'Hero Lead / Subtitle', 'nukto' ); ?></label></th>
+			<td>
+				<textarea id="nukto_page_hero_lead" name="nukto_page_hero_lead" rows="3" class="large-text" placeholder="<?php esc_attr_e( 'Optional introductory paragraph displayed in the page hero...', 'nukto' ); ?>"><?php echo esc_textarea( $hero_lead ); ?></textarea>
+				<p class="description"><?php esc_html_e( 'Displayed below the main headline in large editorial typography.', 'nukto' ); ?></p>
+			</td>
+		</tr>
+	</table>
+	<?php
+}
+
+/**
+ * Save Page Hero Meta Data
+ *
+ * @param int $post_id Current post ID.
+ */
+function nukto_save_page_meta( $post_id ) {
+	if ( ! isset( $_POST['nukto_page_meta_nonce'] ) || ! wp_verify_nonce( sanitize_key( $_POST['nukto_page_meta_nonce'] ), 'nukto_save_page_meta' ) ) {
+		return;
+	}
+
+	if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+		return;
+	}
+
+	if ( ! current_user_can( 'edit_page', $post_id ) ) {
+		return;
+	}
+
+	if ( isset( $_POST['nukto_page_hero_tag'] ) ) {
+		update_post_meta( $post_id, '_nukto_page_hero_tag', sanitize_text_field( wp_unslash( $_POST['nukto_page_hero_tag'] ) ) );
+	}
+
+	if ( isset( $_POST['nukto_page_hero_headline'] ) ) {
+		update_post_meta( $post_id, '_nukto_page_hero_headline', sanitize_text_field( wp_unslash( $_POST['nukto_page_hero_headline'] ) ) );
+	}
+
+	if ( isset( $_POST['nukto_page_hero_lead'] ) ) {
+		update_post_meta( $post_id, '_nukto_page_hero_lead', sanitize_textarea_field( wp_unslash( $_POST['nukto_page_hero_lead'] ) ) );
+	}
+}
+add_action( 'save_post_page', 'nukto_save_page_meta' );

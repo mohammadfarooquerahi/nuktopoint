@@ -123,7 +123,7 @@ class Nukto_Nav_Walker extends Walker_Nav_Menu {
  * @return array Modified classes.
  */
 function nukto_body_classes( $classes ) {
-	$classes[] = 'nk-theme-dark';
+	$classes[] = 'nk-theme-white';
 	$classes[] = 'nk-has-custom-cursor';
 	return $classes;
 }

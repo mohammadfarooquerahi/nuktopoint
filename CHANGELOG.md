@@ -1,5 +1,28 @@
 # 📝 CHANGELOG & ARCHITECTURAL LOG
 
+## [1.3.0] - 2026-10-26 — 100% Full Website Customizer & Per-Page Content Editing Engine
+### Added & Enhanced
+- **Comprehensive 13-Section WordPress Customizer (`Appearance > Customize > Nukto Theme Options`):**
+  - Expanded `inc/customizer.php` into an all-encompassing agency control suite covering 100% of website content with zero hardcoded constraints.
+  - Added full Customizer controls for all 5 Homepage services (Titles, Descriptions, Deliverable Tags/Pills).
+  - Added full Customizer controls for Homepage client testimonials (Quotes, Authors, Roles, Initials).
+  - Added dedicated page controls for Portfolio/Work Page (`nukto_work_page_section`).
+  - Added dedicated page controls for Services Page (`nukto_services_page_section`): Hero, 5 Detailed Capability Rows, Deliverables, 4-Stage Creative Engine, and Commission CTA.
+  - Added dedicated page controls for About Page (`nukto_about_page_section`): Hero, Profile Badges, 3 Narrative Paragraphs, 3 Credentials, 5 Institutional Career Milestones, and Connect CTA.
+  - Added dedicated page controls for Reviews Page (`nukto_reviews_page_section`): Hero, 6 Client Endorsement Cards, and Partner CTA.
+  - Added dedicated page controls for Contact Page (`nukto_contact_page_section`): Hero, Brief Form Title, Direct Studio Access, 3 Operational Hubs, and 2 Studio Guarantees.
+  - Added footer branding and giant watermark controls.
+- **Native Page Hero Meta Boxes (`inc/custom-post-types.php`):**
+  - Registered `nukto_page_hero_options` for all WordPress pages (`post_type == 'page'`).
+  - Allows editors to customize Eyebrow Tag, Headline, and Lead Subtitle directly inside the standard page editor (`wp-admin/post.php`).
+- **Standard WordPress Editor (`the_content()`) Support:**
+  - Updated all dedicated page templates (`page-work.php`, `page-services.php`, `page-about.php`, `page-reviews.php`, `page-contact.php`, `page.php`) to render standard Gutenberg / Classic editor content if entered by the user.
+- **Cascading Fallback Architecture:**
+  - Implemented cascading fallback pattern: Page Meta Box &rarr; Theme Customizer &rarr; Default Portfolio Copy.
+  - Zero possibility of broken layouts or blank blocks if settings are omitted.
+- **Complete Client Handover Manual:**
+  - Updated `NUKTO_CLIENT_MANUAL.md` with complete documentation for all 13 Customizer sections and Page Meta Boxes.
+
 ## [1.2.0] - 2026-10-20 — White Theme & Official Logo Integration Release
 ### Added & Redesigned
 - **White Background Canvas Architecture:**

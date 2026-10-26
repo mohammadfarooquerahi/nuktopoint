@@ -21,6 +21,14 @@ $projects_query = new WP_Query( array(
 	'orderby'        => 'menu_order date',
 	'order'          => 'DESC',
 ) );
+$post_id       = get_the_ID();
+$meta_tag      = get_post_meta( $post_id, '_nukto_page_hero_tag', true );
+$meta_headline = get_post_meta( $post_id, '_nukto_page_hero_headline', true );
+$meta_lead     = get_post_meta( $post_id, '_nukto_page_hero_lead', true );
+
+$hero_tag      = ! empty( $meta_tag ) ? $meta_tag : get_theme_mod( 'nukto_work_page_tag', 'Selected Work' );
+$hero_headline = ! empty( $meta_headline ) ? $meta_headline : get_theme_mod( 'nukto_work_page_headline', 'A Decade of Strategic Visual Communication' );
+$hero_lead     = ! empty( $meta_lead ) ? $meta_lead : get_theme_mod( 'nukto_work_page_lead', 'Explore our curated portfolio spanning brand identity systems, high-converting Amazon e-commerce assets, outdoor highway billboards, and purpose-driven campaigns.' );
 ?>
 
 <main id="primary" class="nk-main-content nk-portfolio-page">
@@ -28,11 +36,20 @@ $projects_query = new WP_Query( array(
 	<section class="nk-page-hero">
 		<div class="nk-container">
 			<div class="nk-page-hero-inner">
-				<span class="nk-section-tag"><?php esc_html_e( 'Selected Work', 'nukto' ); ?></span>
-				<h1 class="nk-page-h1"><?php esc_html_e( 'A Decade of Strategic Visual Communication', 'nukto' ); ?></h1>
+				<span class="nk-section-tag"><?php echo esc_html( $hero_tag ); ?></span>
+				<h1 class="nk-page-h1"><?php echo esc_html( $hero_headline ); ?></h1>
 				<p class="nk-page-lead">
-					<?php esc_html_e( 'Explore our curated portfolio spanning brand identity systems, high-converting Amazon e-commerce assets, outdoor highway billboards, and purpose-driven campaigns.', 'nukto' ); ?>
+					<?php echo esc_html( $hero_lead ); ?>
 				</p>
+				<?php if ( have_posts() ) : ?>
+					<?php while ( have_posts() ) : the_post(); ?>
+						<?php if ( get_the_content() ) : ?>
+							<div class="nk-page-editor-content" style="margin-top: 1.5rem; color: var(--nk-text-muted); font-size: 1.05rem; line-height: 1.7;">
+								<?php the_content(); ?>
+							</div>
+						<?php endif; ?>
+					<?php endwhile; ?>
+				<?php endif; ?>
 			</div>
 
 			<!-- Real-time Filter Pills -->

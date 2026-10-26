@@ -8,13 +8,16 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
+
+$form_tag      = get_theme_mod( 'nukto_cp_form_tag', 'Start A Project' );
+$form_headline = get_theme_mod( 'nukto_cp_form_headline', "Let's Connect & Build Something Great" );
 ?>
 <section class="nk-section nk-contact-section" id="contact">
 	<div class="nk-container">
 		<div class="nk-contact-card">
 			<div class="nk-section-title-wrap" style="margin-bottom: 2.5rem;">
-				<span class="nk-section-tag"><?php esc_html_e( 'Start A Project', 'nukto' ); ?></span>
-				<h2 class="nk-section-h2"><?php esc_html_e( "Let's Connect & Build Something Great", 'nukto' ); ?></h2>
+				<span class="nk-section-tag"><?php echo esc_html( $form_tag ); ?></span>
+				<h2 class="nk-section-h2"><?php echo esc_html( $form_headline ); ?></h2>
 			</div>
 
 			<form id="nkContactForm" class="nk-contact-form" novalidate>

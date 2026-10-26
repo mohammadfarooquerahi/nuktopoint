@@ -2,38 +2,33 @@
 
 Welcome to your official **Nukto Point** (`nuktopoint.com`) operations and management guide. This custom WordPress theme has been crafted from scratch by **Mohammad Farooque** as an avant-garde digital presence showcasing the authentic creative portfolio, academic credentials, and communication design work of **Nukto Point**.
 
-This guide provides step-by-step instructions for editing website content, managing portfolio projects, monitoring contact inquiries, and customizing visual styles &mdash; **all without touching any code**.
+This theme is **100% editable** — every page, every headline, every service breakdown, every client review, every career milestone, and every contact detail can be edited directly from the WordPress Admin without touching a single line of code.
 
 ---
 
 ## 📑 Table of Contents
 
 1. [Logging In to Your WordPress Dashboard](#1-logging-in-to-your-wordpress-dashboard)
-2. [Visual Homepage Customization (Live Customizer)](#2-visual-homepage-customization-live-customizer)
-   - [Hero Section & Live Ticker](#a-hero-section--live-ticker)
-   - [Showreel Video & Visual Reel](#b-showreel-video--visual-reel)
-   - [Services Showcase](#c-services-showcase)
-   - [About Studio & Leadership Bio](#d-about-studio--leadership-bio)
-   - [Impact Statistics & Key Metrics](#e-impact-statistics--key-metrics)
-   - [Contact Information & Social Links](#f-contact-information--social-links)
-3. [Managing the Portfolio (Projects CPT)](#3-managing-the-portfolio-projects-cpt)
-   - [Adding a New Project](#adding-a-new-project)
-   - [Setting Featured Images & Cover Art](#setting-featured-images--cover-art)
-   - [Project Categories & Taxonomy Filters](#project-categories--taxonomy-filters)
-   - [Project Meta Fields (Client, Year, Disciplines, Live Link, Grid Size)](#project-meta-fields)
-4. [Interactive Features & Visual Engines](#4-interactive-features--visual-engines)
-   - [Custom Dual-Ring Magnetic Cursor](#custom-dual-ring-magnetic-cursor)
-   - [Lenis Smooth Inertial Scrolling](#lenis-smooth-inertial-scrolling)
-   - [Matter.js 2D Physics Footer Tag Cloud](#matterjs-2d-physics-footer-tag-cloud)
-   - [Web Audio Synthesizer Toggle](#web-audio-synthesizer-toggle)
-5. [Inquiries & Contact Form Submissions](#5-inquiries--contact-form-submissions)
-   - [How the AJAX Contact Form Works](#how-the-ajax-contact-form-works)
-   - [Changing Recipient Email Address](#changing-recipient-email-address)
-   - [Form Nonce Security & Anti-Spam Protection](#form-nonce-security--anti-spam-protection)
-6. [Navigation Menus & Header/Footer Links](#6-navigation-menus--headerfooter-links)
-7. [SEO, Social Sharing & Media Guidelines](#7-seo-social-sharing--media-guidelines)
-8. [Client Action Items & Placeholder Replacements](#8-client-action-items--placeholder-replacements)
-9. [Routine Maintenance, Backups & Security](#9-routine-maintenance-backups--security)
+2. [Global & Multi-Page Editing via WordPress Customizer](#2-global--multi-page-editing-via-wordpress-customizer)
+   - [Section 1: Hero & Showcase Video](#section-1-hero--showcase-video)
+   - [Section 2: Partner & Client Marquee](#section-2-partner--client-marquee)
+   - [Section 3: Homepage Selected Work](#section-3-homepage-selected-work)
+   - [Section 4: Homepage Services Showcase (5 Services + Deliverables)](#section-4-homepage-services-showcase)
+   - [Section 5: Homepage About & Live Stats](#section-5-homepage-about--live-stats)
+   - [Section 6: Homepage Client Testimonials](#section-6-homepage-client-testimonials)
+   - [Section 7: Work Page (Portfolio Directory)](#section-7-work-page-portfolio-directory)
+   - [Section 8: Services Page (Capabilities Deep Dive + 4-Stage Engine)](#section-8-services-page-capabilities-deep-dive)
+   - [Section 9: About Page (Studio, Founder Bio, Credentials, Career Timeline)](#section-9-about-page-studio-founder-bio-credentials-career-timeline)
+   - [Section 10: Reviews Page (6 Endorsement Cards)](#section-10-reviews-page-6-endorsement-cards)
+   - [Section 11: Contact Page (Direct Commission Brief & Studio Hubs)](#section-11-contact-page-direct-commission-brief--studio-hubs)
+   - [Section 12: Global Agency Contacts & Office Locations](#section-12-global-agency-contacts--office-locations)
+   - [Section 13: Social Media & Footer Branding](#section-13-social-media--footer-branding)
+3. [Editing Individual Pages & Page Hero Banners](#3-editing-individual-pages--page-hero-banners)
+4. [Managing the Portfolio (Projects CPT)](#4-managing-the-portfolio-projects-cpt)
+5. [Interactive Features & Visual Motion Systems](#5-interactive-features--visual-motion-systems)
+6. [Inquiries & AJAX Contact Form](#6-inquiries--ajax-contact-form)
+7. [Navigation Menus & Footer Links](#7-navigation-menus--footer-links)
+8. [SEO & Social Sharing Guidelines](#8-seo--social-sharing-guidelines)
 
 ---
 
@@ -47,190 +42,205 @@ This guide provides step-by-step instructions for editing website content, manag
 3. Enter your **Username / Email Address** and **Password**.
 4. Click **Log In**.
 
-> 💡 **Tip:** Bookmark the `/wp-admin` URL in your browser bookmark bar for instant access.
+---
+
+## 2. Global & Multi-Page Editing via WordPress Customizer
+
+All text, headings, badges, services, testimonials, career milestones, and stats are organized into the WordPress Live Customizer.
+
+**To access the Customizer:**
+1. In the left admin sidebar, go to **Appearance > Customize**.
+2. Click on the panel **Nukto Theme Options**.
+3. You will see 13 dedicated sections covering every component and page across the entire website.
+4. Changes update in real-time in the preview window! Click the blue **Publish** button to save changes live.
 
 ---
 
-## 2. Visual Homepage Customization (Live Customizer)
-
-All major sections on the homepage are fully editable with a real-time live preview.
-
-**How to open the Live Customizer:**
-1. In the left admin sidebar, click **Appearance > Customize**.
-2. Click on **Nukto Point Settings**.
-3. You will see dedicated panels corresponding to each section of your homepage.
-4. When you finish editing, click the blue **Publish** button at the top left to save changes instantly.
+### Section 1: Hero & Showcase Video
+- **Hero Headline Prefix:** (Default: `Leading Full-Service`)
+- **Vertical Ticker Words (One per line):** Rotates dynamically in the hero heading.
+- **Showreel Video URL:** Direct `.mp4` video URL (e.g., CDN or Media Library upload) for the scroll-expanding hero showcase.
 
 ---
 
-### A. Hero Section & Live Ticker
-*Controls the top ticker badge, massive typography headline, and hero lead text.*
-- **Ticker Status Text:** (Default: `AVAILABLE FOR SELECT COMMISSIONS • Q1/Q2`)
-- **Main Headline Line 1:** (Default: `COMMUNICATION DESIGN`)
-- **Main Headline Line 2:** (Default: `THAT COMMANDS ATTENTION.`)
-- **Hero Lead Description:** A concise 2-sentence mission statement summarizing your studio's unique positioning.
+### Section 2: Partner & Client Marquee
+- **Partner / Client Names (One per line):** Displays inside the infinite sliding marquee separated by brand dots.
+  - Default partners: Pak-Turk Maarif, SZABIST University, Eastline Communication, Switch Studio, KTN TV, Apex Cutlery, Amazon Global Retail.
 
 ---
 
-### B. Showreel Video & Visual Reel
-*Controls the showreel preview card that expands on scroll and launches the high-res video modal.*
-- **Showreel Title / Badge:** (Default: `NUKTO POINT REEL`)
-- **Showreel Video MP4 URL:** Enter a direct link to an MP4 video file uploaded to your Media Library or external CDN.
-- **Showreel Cover Image:** Select a high-resolution background poster for the video card.
+### Section 3: Homepage Selected Work
+- **Section Eyebrow Tag:** (Default: `Selected Work`)
+- **Section Headline:** (Default: `Portfolio of Impactful Brands & Visual Systems`)
 
 ---
 
-### C. Services Showcase
-*Controls the 4 interactive service cards.*
-- **Service 1:** Title, Subtitle, and Deliverable Items (e.g. `Branding & Visual Identity`).
-- **Service 2:** E-Commerce & Amazon Creative (A+ Content, packaging dielines, listing sets).
-- **Service 3:** Advertising & Outdoor Print (Billboards, exhibition standees, brochures).
-- **Service 4:** Social Media & Strategic Campaigns (Ad creatives, awareness visuals).
+### Section 4: Homepage Services Showcase
+- **Section Tag:** (Default: `Our Capabilities`)
+- **Sticky Statement Headline:** (Default: `We're a creative communication agency making brands people remember.`)
+- **Statement Subtitle Text:** (Default: `Big ideas. Bold design. Real results. You bring the vision; we engineer it into market presence.`)
+- **Services 01 to 05 (Fully Editable):**
+  - For each service (01 to 05), you can edit the **Title**, **Description**, and **Tags / Pills** (comma-separated list of deliverables).
 
 ---
 
-### D. About Studio & Leadership Bio
-*Showcases your M.Phil degree, 10+ years experience, and institutional roles (SZABIST, Pak-Turk Maarif, Switch Studio).*
-- **Section Badge:** (Default: `THE PHILOSOPHY`)
-- **Studio Narrative:** Rich biographical statement explaining your creative ethos.
-- **Client Avatar:** Profile photograph of the lead designer (`assets/images/branding/nukto-avatar.jpg`).
+### Section 5: Homepage About & Live Stats
+- **Section Tag:** (Default: `About Studio`)
+- **About Section Headline:** (Default: `The Creatives Behind Your Brand Magic`)
+- **Badge / Sparkle Text:** (Default: `🪄 Design & Strategy`)
+- **Narrative Paragraph 1 (Founder Bio):** 10+ years experience, M.Phil Art & Design.
+- **Narrative Paragraph 2:** Multidisciplinary institutional & corporate approach.
+- **Narrative Paragraph 3:** Strategic rationale and commercial conversion.
+- **Stats 1 to 4:** Each stat allows editing the **Number**, **Symbol** (`+`, `%`, `X`), and **Descriptive Label**.
 
 ---
 
-### E. Impact Statistics & Key Metrics
-*Four counter metrics highlighting your studio achievements.*
-- **Stat 1:** `10+` &mdash; Years of Professional Design Experience
-- **Stat 2:** `66+` &mdash; Behance Appreciations
-- **Stat 3:** `440+` &mdash; Project Views
-- **Stat 4:** `98%` &mdash; Client Satisfaction Rate
+### Section 6: Homepage Client Testimonials
+- **Section Tag:** (Default: `Client Endorsements`)
+- **Section Headline:** (Default: `Trusted by Institutions & Global Sellers`)
+- **Testimonials 1 to 3:**
+  - Edit the **Quote**, **Author Name**, **Role / Organization**, and **Avatar Initials** (e.g., `SZ`, `AC`, `PT`).
 
 ---
 
-### F. Contact Information & Social Links
-*Controls the contact footer, direct links, and social media handles.*
-- **Contact Email:** (Default: `nuktopoint@gmail.com`)
-- **Contact Phone / WhatsApp:** (Default: `+92 324 3601950`)
-- **Studio Locations:** Pakistan (Islamabad / Karachi / Hyderabad)
-- **Behance Profile:** `https://www.behance.net/nukto-poin`
-- **Instagram:** `https://www.instagram.com/nuktopoint`
-- **Facebook:** `https://www.facebook.com/p/NUKTO-61560572120480/`
+### Section 7: Work Page (Portfolio Directory)
+*Controls the dedicated Selected Work page (`/work/`).*
+- **Hero Eyebrow Tag:** (Default: `Selected Work`)
+- **Hero Headline:** (Default: `A Decade of Strategic Visual Communication`)
+- **Hero Lead Text:** Editorial introductory paragraph describing the curated projects.
 
 ---
 
-## 3. Managing the Portfolio (Projects CPT)
+### Section 8: Services Page (Capabilities Deep Dive)
+*Controls the dedicated Capabilities & Services page (`/services/`).*
+- **Hero Eyebrow Tag, Headline & Lead Paragraph**
+- **5 Detailed Capability Rows:**
+  - For each service (01 to 05), customize the **Title**, the **Lead Paragraph**, and the **Deliverables List** (textarea, one deliverable per line).
+- **The 4-Stage Creative Engine:**
+  - Customize the **Process Tag**, **Process Headline**, and **Steps 1 to 4** (Title & Description for Strategic Discovery, Concept Direction, High-Fidelity Craft, Omni-Channel Rollout).
+- **Bottom Call to Action:**
+  - Customize CTA Tag, Headline, Subtitle, Button Text, and Button URL.
 
-The theme features a dedicated **Projects** Custom Post Type engineered specifically for design case studies.
+---
+
+### Section 9: About Page (Studio, Founder Bio, Credentials, Career Timeline)
+*Controls the dedicated About page (`/about/`).*
+- **Hero Eyebrow Tag, Headline & Lead Paragraph**
+- **Founder Profile Card:** Edit the badge title (`NUKTO POINT`) and subtitle (`Lead Communication Designer • M.Phil Art & Design`).
+- **Narrative Section:** Tag, Headline, and 3 rich paragraphs.
+- **Credentials Strip:** Number and label for 3 key credentials (`10+ Years`, `M.Phil Degree`, `SZABIST Faculty`).
+- **Career Milestones Timeline (5 Milestones):**
+  - For each milestone (1 to 5), customize the **Year Span**, **Role / Title**, **Organization Name**, **Location**, and **Description**.
+- **Bottom Call to Action:** Customize CTA Tag, Headline, Subtitle, Button Text, and Button URL.
+
+---
+
+### Section 10: Reviews Page (6 Endorsement Cards)
+*Controls the dedicated Client Reviews page (`/reviews/`).*
+- **Hero Eyebrow Tag, Headline & Lead Paragraph**
+- **6 Detailed Review Cards:**
+  - Customize the **Quote**, **Author Name**, and **Author Role & Organization** for all 6 review cards.
+- **Bottom Call to Action:** Customize CTA Tag, Headline, Subtitle, Button Text, and Button URL.
+
+---
+
+### Section 11: Contact Page (Direct Commission Brief & Studio Hubs)
+*Controls the dedicated Start A Project page (`/contact/`).*
+- **Hero Eyebrow Tag, Headline & Lead Paragraph**
+- **Project Brief Form Card:** Tag and Headline.
+- **Direct Studio Access Card:** Tag, Headline, Subtitle.
+- **Studio Guarantees:** Customize the Icon, Title, and Description for Guarantee 1 (`24-Hour Turnaround`) and Guarantee 2 (`NDA Protection`).
+
+---
+
+### Section 12: Global Agency Contacts & Office Locations
+*Controls the primary contacts displayed across the footer and contact sections.*
+- **Primary Contact Email:** (Default: `nuktopoint@gmail.com`)
+- **Primary Phone / WhatsApp:** (Default: `+92 324 3601950`)
+- **Location 1 (Islamabad):** City name and street address.
+- **Location 2 (Karachi):** City name and street address.
+- **Location 3 (Hyderabad):** City name and street address.
+
+---
+
+### Section 13: Social Media & Footer Branding
+- **Behance URL:** Direct link to your Behance portfolio.
+- **Instagram URL:** Direct link to your Instagram profile.
+- **Facebook URL:** Direct link to your Facebook page.
+- **Footer Giant Watermark Text:** (Default: `NUKTO POINT`)
+- **Footer Copyright Tagline:** (Default: `The Point of Creativity. All Rights Reserved.`)
+
+---
+
+## 3. Editing Individual Pages & Page Hero Banners
+
+In addition to the Customizer, every WordPress page can be edited individually:
+
+1. In the admin sidebar, click **Pages > All Pages**.
+2. Click **Edit** on any page (e.g. *Selected Work*, *Capabilities & Services*, *About Studio*, *Client Reviews*, *Start A Project*).
+3. Scroll down to the **Page Hero & Banner Options** box:
+   - **Hero Eyebrow Tag:** Override the small tag badge for this specific page.
+   - **Hero Custom Headline:** Override the primary H1 headline.
+   - **Hero Lead / Subtitle:** Add or update the introductory paragraph.
+4. **WordPress Editor Content:**
+   - Any text or media you add in the main WordPress editor (Gutenberg or Classic Editor) will automatically display inside the page layout right below the hero section!
+5. Click **Update** to save.
+
+---
+
+## 4. Managing the Portfolio (Projects CPT)
+
+The theme features a custom post type called **Projects** (`/projects/` or `/work/`).
 
 ### Adding a New Project
-1. In your WP Admin sidebar, navigate to **Projects > Add New Project**.
+1. Navigate to **Projects > Add New Project**.
 2. **Title:** Enter the project name (e.g., `Amazon A+ Content / EBC Brand Story Design`).
-3. **Main Content Editor:** Write the case study narrative, project background, challenge, and solution.
-4. **Excerpt:** Add a short 1-2 sentence preview description for card listings.
-
-### Setting Featured Images & Cover Art
-1. On the right sidebar, look for the **Featured Image** panel.
-2. Click **Set featured image**.
-3. Upload a high-resolution image (`1600x1200px` or `1920x1080px`, JPG/PNG/WebP).
-4. Always provide descriptive **Alt Text** for SEO and accessibility.
-
-### Project Categories & Taxonomy Filters
-1. On the right sidebar, check one or more categories under **Project Categories**:
-   - `Branding & Visual Identity`
-   - `E-Commerce & Amazon Creative`
-   - `Advertising & Print Media`
-   - `Social Media & Campaigns`
-   - `Brand Strategy & PR`
-2. These categories automatically generate interactive filter pills on the Portfolio page (`/work/`).
-
-### Project Meta Fields
-Below the text editor, locate the **Project Details & Metadata** box:
-- **Client Name:** (e.g., `SZABIST University`, `Apex Cutlery`, `D2C Brand`)
-- **Project Year:** (e.g., `2024`)
-- **Services / Disciplines:** (e.g., `Billboard, Large Format, Typography`)
-- **External Behance / Live URL:** (Link to external gallery or live site)
-- **Card Grid Size:**
-  - `Regular (1 Column)` &mdash; Standard card size.
-  - `Large (Spans 2 Columns)` &mdash; Highlighted hero card in masonry layout.
+3. **Editor:** Write the case study description, project brief, challenge, and results.
+4. **Featured Image (Cover Art):** On the right sidebar, click **Set featured image** and upload your high-resolution project cover (`1600x1200px` recommended).
+5. **Project Categories:** Select the appropriate category (e.g., *Branding & Identity*, *E-Commerce & Amazon*, *Outdoor & Print*, *Social Media Campaigns*).
+6. **Project Details & Specifications Meta Box:**
+   - **Client / Brand Name:** e.g. `SZABIST University`, `Apex Cutlery`.
+   - **Project Year:** e.g. `2024`.
+   - **Services Rendered:** Comma-separated list of services (e.g. `Branding, Amazon Listing, Packaging`).
+   - **External Portfolio Link:** Link to your live Behance case study.
+   - **Homepage Card Grid Width:** Select `Full Width (12 Columns)`, `Wide (8 Columns)`, `Half Width (6 Columns)`, or `One-Third (4 Columns)`.
+7. Click **Publish**.
 
 ---
 
-## 4. Interactive Features & Visual Engines
+## 5. Interactive Features & Visual Motion Systems
 
-### Custom Dual-Ring Magnetic Cursor
-- The mouse pointer is accompanied by a dual-ring reactive cursor.
-- Automatically expands and snaps magnetically when hovering over buttons, links, project cards, and inputs.
-- Automatically disabled on touchscreens, mobile devices, and for visitors who have enabled `prefers-reduced-motion` in their OS settings.
-
-### Lenis Smooth Inertial Scrolling
-- Uses hardware-accelerated smooth scrolling for an ultra-fluid editorial browsing experience.
-- Synchronized natively with **GSAP ScrollTrigger** for scroll-driven animations.
-
-### Matter.js 2D Physics Footer Tag Cloud
-- In the footer, brand skill tags ("Brand Identity", "Amazon EBC", "SZABIST Visiting Faculty", "Nukto Point") are physical 2D bodies with gravity and bounce.
-- Visitors can drag, fling, and collide the tags with their cursor or finger!
-
-### Web Audio Synthesizer Toggle
-- Clicking the audio equalizer icon in the header toggles a subtle, high-tech ambient audio drone generated in real-time via the browser's Web Audio API (no heavy MP3 audio files needed).
+- **Brand Visual Identity:** Clean white background (`#ffffff`), dark indigo editorial text (`#111026`), and royal indigo accents (`#3c387c` / `#4f46e5`) matching the official Nukto Point brand mark.
+- **Custom Dual-Ring Magnetic Cursor:** Automatically snaps magnetically to buttons, links, project cards, and inputs. Automatically disabled on touch screens and mobile devices.
+- **Smooth Lenis Inertial Scrolling:** Hardware-accelerated smooth scrolling synchronized with GSAP ScrollTrigger.
+- **Interactive Matter.js Physics Tag Cloud:** In the footer, brand skill tags behave as physical 2D objects with gravity and bounce. Visitors can drag, fling, and collide them.
 
 ---
 
-## 5. Inquiries & Contact Form Submissions
+## 6. Inquiries & AJAX Contact Form
 
-### How the AJAX Contact Form Works
-- The contact form at the bottom of the homepage submits inquiries via asynchronous AJAX without reloading the page.
-- Fields: **Full Name**, **Email Address**, **Service Required**, and **Project Brief / Message**.
-- When submitted, the visitor sees an animated confirmation alert, and the form sends a formatted HTML email to your studio inbox.
-
-### Changing Recipient Email Address
-- By default, form submissions are sent to the email configured in **Appearance > Customize > Nukto Point Settings > Contact Info**, or the WordPress administration email address.
-
-### Form Nonce Security & Anti-Spam Protection
-- Every form submission includes a cryptographic WordPress Nonce token (`_nukto_contact_nonce`) to block automated spam bots and cross-site request forgery attacks.
+- The contact form submits inquiries via asynchronous AJAX without page reloads.
+- Fields: Full Name, Email, Phone, Company, Designation, Referral Source, Services Required, Budget Tier, and Message.
+- Form submissions are sent directly to the email address set in **Appearance > Customize > 12. Global Agency Contacts**.
+- Submissions include a cryptographic WordPress Nonce token to block automated spam.
 
 ---
 
-## 6. Navigation Menus & Header/Footer Links
+## 7. Navigation Menus & Footer Links
 
-**To edit your navigation links:**
+To adjust the primary navigation or footer links:
 1. Navigate to **Appearance > Menus**.
 2. Select **Primary Navigation** from the dropdown.
-3. You can reorder, add, or rename links:
-   - **Home:** `/#`
-   - **Work:** `/#work` (or `/work/` for full directory)
-   - **Services:** `/#services`
-   - **About:** `/#about`
-   - **Contact:** `/#contact`
-4. Check the **Primary Menu** checkbox under Menu Settings and click **Save Menu**.
+3. Add, reorder, or rename links (*Home, Work, Services, About, Reviews, Contact*).
+4. Click **Save Menu**.
 
 ---
 
-## 7. SEO, Social Sharing & Media Guidelines
+## 8. SEO & Social Sharing Guidelines
 
-### Image Guidelines
-- **Project Covers:** Ideal size `1600x1200px` or `1920x1080px`, under 400KB per image.
-- **Format:** WebP is recommended for maximum speed; PNG is best for graphics with crisp line art.
-- **Alt Text:** Always describe the image contents for search engine crawlers.
-
-### Social Meta Sharing
-- The theme outputs semantic Open Graph meta tags (`og:title`, `og:description`, `og:image`, `og:url`) on single project case studies, ensuring rich link preview cards when shared on WhatsApp, LinkedIn, X/Twitter, or Facebook.
-
----
-
-## 8. Client Action Items & Placeholder Replacements
-
-Please review the following items documented in `/content/MISSING.md` to finalize your production rollout:
-
-1. **Showreel Video MP4:** Upload your studio showreel MP4 video to your WordPress Media Library and enter its link in **Appearance > Customize > Showreel Media**.
-2. **Physical Studio Address:** If you would like to display a specific street address in the footer rather than city names (`Islamabad / Karachi / Hyderabad`), update it in the Customizer.
-3. **Video Client Testimonials:** If you have video endorsements or client quotes, update the testimonials in `template-parts/testimonials.php`.
-
----
-
-## 9. Routine Maintenance, Backups & Security
-
-- **WordPress Core Updates:** Keep WordPress updated to the latest version.
-- **Backups:** Use a reliable backup solution (e.g. UpdraftPlus or your hosting provider's automated daily backups).
-- **Security:** Use strong passwords, 2-Factor Authentication (2FA), and ensure SSL (HTTPS) is active on your domain.
+- The theme includes rich Schema.org JSON-LD Knowledge Graph metadata and Open Graph tags.
+- Credit metadata attributes Senior WordPress Theme Developer **Mohammad Farooque** with clean, low-opacity styling (`opacity: 0.05`, hover `0.10`) in the footer.
+- All images are loaded with native lazy-loading for optimal Google PageSpeed scores.
 
 ---
 
